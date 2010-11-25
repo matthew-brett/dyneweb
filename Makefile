@@ -8,7 +8,7 @@ PAPER         =
 BUILDDIR      = _build
 
 # Specific stuff for website upload
-WWW = dynevoro@dynevor.org:public_html
+WWW = dynevoro@dynevor.org:public_html/matthew
 SITE        = $(BUILDDIR)/html
 
 # Internal variables.

@@ -11,7 +11,7 @@ I used to work on functional imaging of movement.
 Later I worked on some aspects of functional imaging methodology.
 
 At the moment I am helping to write new software in Python_ for analyzing
-functional imaging and diffusion imaging data.  This is the `nipy community`_
+functional and diffusion imaging data.  This is the `nipy community`_
 project.  I personally work a lot on nibabel_ as well as the `nipy package`_ and
 dipy_.
 
