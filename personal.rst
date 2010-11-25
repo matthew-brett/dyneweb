@@ -6,9 +6,8 @@
 
 .. image:: _static/matthew_sm.jpg
    :alt: Matthew Brett
-   :align: center
 
-Valia took this picture.  I have not link for her, only my thanks.
+Valia took this picture.  I have no link for her, only my thanks.
 
 .. include:: contact.txt
 

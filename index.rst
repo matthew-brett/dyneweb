@@ -4,27 +4,26 @@
 
 These are my personal web pages.
 
-I work at the Berkeley brain imaging center (bic_).
+I work at the Berkeley brain imaging center (BIC_).
 
 I used to work on functional imaging of movement.
 
 Later I worked on some aspects of functional imaging methodology.
 
 At the moment I am helping to write new software in Python_ for analyzing
-functional imaging and diffusion imaging data.  This is the nipy_ project.  I
-personally work a lot on nibabel_ as well as nipy_ and dipy_.
+functional imaging and diffusion imaging data.  This is the `nipy community`_
+project.  I personally work a lot on nibabel_ as well as the `nipy package`_ and
+dipy_.
 
+I try to keep my list of :ref:`publications` up to date.  Please let me know if
+I've missed something off or you need a copy of one of the listed papers.
 
 .. include:: contact.txt
 
 .. toctree::
-   :hidden:
+    :hidden:
 
-   research/index
-   talks/index
-   py4science/index
-   code/index
-   personal
-   news
+    meta/index
+    personal
 
 .. include:: links.txt

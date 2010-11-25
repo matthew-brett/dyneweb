@@ -1,0 +1,91 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>SPLTRAK Abstract Submission</title></head><body><i>
+
+
+
+
+
+</i><div align="left">
+<table border="0" cellspacing="1" width="100%">
+<tbody><tr>
+<td width="100%">
+<div align="center">
+<table border="0" cellspacing="1" width="100%">
+<tbody><tr>
+<td width="100%">
+<div align="center"></div>
+</td>
+</tr>
+<tr>
+<td width="100%"><br>
+<b>
+<center>
+Modeling subject movement in fMRI</center>
+</b></td>
+</tr>
+<tr>
+<td width="100%"><center>Matthew  Brett<sup><font size="2"></font></sup><br><font size="2"><sup></sup></font>Dept. of Neuroscience, UC Berkeley, U.S.A. </center><br></td>
+    </tr>
+    <tr>
+      <td width="100%"><b>Objective:</b>  FMRI data suffer from considerable movement-related variance, even<br>
+after spatial realignment has been applied.  This variance will cause<br>
+loss of statistical power, and may cause bias if movement is related to<br>
+the experimental paradigm.  One approach to adjusting for these<br>
+effects is to add some function of the estimated movement parameters<br>
+(MPs) as covariates to the statistical analysis.  There is limited<br>
+evidence from real data as to what function of MPs to use.  Here I<br>
+report the results of applying different functions of MPs to a typical<br>
+dataset.<br>
+<br>
+<br>
+<br><b>Methods:</b>  	<br>
+The analysis used data from a visual event-related design reported<br>
+previously (ref 1).  The visual events produced reliable activation in<br>
+visual cortex.  There were 11 subjects, 7 scan runs per subject, 126<br>
+scans per run, TR 2 seconds. Each scan run was analyzed using three<br>
+different models: 1) simple model, no MPs; 2) MPs model, using 6 MPs<br>
+only (translations, rotations); 3) spin-history model (ref 2) - MPs,<br>
+MPs squared (MP2), MPs offset by one scan (MP+1), MP2 offset by one<br>
+(MP2+1) - giving 24 design columns.  Each model also included 2 event<br>
+regressors (ERs) - the event onsets convolved with a standard<br>
+haemodynamic response and its temporal derivative.  I used F tests to<br>
+assess variance explained by a) ERs b) MPs c) MP2 d) MP+1 e) MP2+1.<br>
+To restrict focus to an area of activation, for each model and each<br>
+each subject, one run was selected to define a visual ROI using the F<br>
+test for the ERs.  This run was not used for further analysis.  The<br>
+statistics below are for the mean signal from this ROI, for the<br>
+remaining runs.<br>
+<br>
+<br><b>Results &amp; Discussion:</b>  	<br>
+The median F statistic within the visual cortex ROI, for the simple<br>
+model, MP model and spin-history model were 26.4, 38.0 and 33.8<br>
+respectively.  The median F statistic for the MPs was 6.4 and 4.5 for<br>
+the MPs and spin-history model, which were significant (p &lt; 0.05) in<br>
+88% and 79% of the analyses respectively.  The remaining F values (%<br>
+significant) for the spin history model were 1.7 (55), 1.4 (27) and 1.3<br>
+(21) for MP2, MP+1 and MP2+1 respectively. <br>
+<br>
+<br>
+<br><b>Conclusions:</b>  										<br>
+The fact that the F value increased when adding the movement<br>
+parameters to the simple model suggests that, for this dataset, the<br>
+movement parameters were useful in increasing signal to noise.  Adding<br>
+simple movement parameters as covariates to the statistical model is<br>
+likely to be a useful default for analysing FMRI data.  The use of<br>
+further functions of movement parameters is less convincing in this<br>
+dataest.	<br><b>References &amp; Acknowledgements:</b>  																						<br>
+1) Brett, M, Nimmo-Smith, M.I., Osswald, K, Bullmore, E.T. (2003)<br>
+   Model fitting and power in fast event related designs. NeuroImage,<br>
+   19(2) Supplement 1, abstract 791<br>
+<br>
+2) Friston, K. J., Williams, S.  Howard, R., Frackowiak, R.S.J.,<br>
+    Turner, R (1996) Movement-Related Effects in fMRI Time-Series. Magnetic<br>
+    Resonance in Medicine, 35:346-355, 1996<br><br>
+	</td></tr>
+    <tr>
+</tr></tbody></table>
+	</div></td>
+	</tr>
+  </tbody></table>
+<table border="0" width="100%">
+<tbody><tr><td align="center"><input value="Close this window" onclick="window.close()" type="button"></td></tr></tbody></table>
+</div></body></html>

@@ -1,0 +1,8 @@
+========
+Research
+========
+
+.. toctree::
+
+    publications
+    cv
