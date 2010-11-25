@@ -4,10 +4,10 @@
  About me
 ==========
 
-.. image:: _static/matthew_sm.jpg
-   :alt: Me on the steps of the University in Havana
+.. figure:: _static/matthew_sm.jpg
+    :alt: Me on the steps of the University in Havana
 
-Valia Rodriguez Rodriguez took this picture.
+    Valia Rodriguez Rodriguez took this picture.
 
 .. include:: contact.txt
 
