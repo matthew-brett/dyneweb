@@ -126,7 +126,7 @@ html_title = 'Matthew Brett personal pages'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = os.path.join('_static', 'monkey_chunk_sm.jpg')
+html_logo = 'michael_sowa_denker.jpg'
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
