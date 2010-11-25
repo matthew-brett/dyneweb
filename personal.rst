@@ -1,14 +1,14 @@
 .. _personal:
 
-================
- Matthew Brett
-================
+==========
+ About me
+==========
 
 .. image:: _static/matthew_sm.jpg
-   :alt: Matthew Brett
+   :alt: Me on the steps of the University in Havana
 
-Valia took this picture.  I have no link for her, only my thanks.
+Valia Rodriguez Rodriguez took this picture.
 
 .. include:: contact.txt
 
-.. include:: ../links.txt
+.. include:: links.txt

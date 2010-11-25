@@ -18,12 +18,14 @@ dipy_.
 I try to keep my list of :ref:`publications` up to date.  Please let me know if
 I've missed something off or you need a copy of one of the listed papers.
 
+No doubt you want to know what I look like - good news - see :ref:`personal`.
+
 .. include:: contact.txt
 
 .. toctree::
     :hidden:
 
-    meta/index
     personal
+    research/index
 
 .. include:: links.txt
