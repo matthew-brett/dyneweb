@@ -12,8 +12,8 @@ Personal Details
 +================+==========================+==================+=========================+
 | *Nationality*: | British                  | *e\-mail*:       | matthew.brett@gmail.com |
 +----------------+--------------------------+------------------+-------------------------+
-| Work address:  | 10 Giannini Hall         |                  |                         |
-|                | University of California |                  |                         |
+| Work address:  | 10 Giannini Hall,        |                  |                         |
+|                | University of California,|                  |                         |
 |                | Berkeley CA 94720        |                  |                         |
 +----------------+--------------------------+------------------+-------------------------+
 
@@ -77,17 +77,21 @@ Awards
 Research Program
 ================
 
-I work on developing, implementing and teaching methods of functional data analysis including FMRI and diffusion weighted imaging.
-have a strong interest in open-source software development as the basis of methods research and understanding.
-My primary focus is the development of a large international collaboration for new imaging software development (neuroimaging.scipy.org).
-Particular scientific interests include technical and theoretical problems in spatial normalization (inter-subject registration), region of interest analysis, and new methods of statistical analysis across subjects and tasks.
+I work on developing, implementing and teaching methods of functional data
+analysis including FMRI and diffusion weighted imaging.  have a strong interest
+in open-source software development as the basis of methods research and
+understanding.  My primary focus is the development of a large international
+collaboration for new imaging software development (neuroimaging.scipy.org).
+Particular scientific interests include technical and theoretical problems in
+spatial normalization (inter-subject registration), region of interest analysis,
+and new methods of statistical analysis across subjects and tasks.
 
-
-
-Scientific activities 
+Scientific activities
 ======================
 
-Reviewer for NeuroImage, Human Brain Mapping, Journal of Cognitive Neuroscience, Neuroscience Letters, Clinical Neurophysiology, Journal of Neuroimaging, Frontiers in Neuroinformatics
+Reviewer for NeuroImage, Human Brain Mapping, Journal of Cognitive Neuroscience,
+Neuroscience Letters, Clinical Neurophysiology, Journal of Neuroimaging,
+Frontiers in Neuroinformatics
 
 Supervisor of two PhD students: 
 
@@ -104,7 +108,7 @@ Advisor to two post-doctoral researchers:
 
 Teaching and Tutorials
 
-Author of a large number of imaging tutorial pages (see http://mrc-cbu.cam.ac.uk/Imaging/Common).
+Author of a large number of imaging tutorial pages (see http://imaging.mrc-cbu.cam.ac.uk/imaging).
 
 
 Have given many invited talks on various topics in neuroimaging methods in Cambridge, London, Oxford, York, Sheffield, Paris, Lyon, Marseille, Tokyo, Buenos Aires, Berkeley, Stanford.
