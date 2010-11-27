@@ -12,7 +12,12 @@
 
 .. my personal links
 .. _email me: matthew.brett@gmail.com
-.. _site: dynevor.org
+.. _site: matthew.dynevor.org
+.. _site source: http://gitorious.org/personal-www/dyneweb
+.. _Michael Sowa: http://en.wikipedia.org/wiki/Michael_Sowa
+
+.. source control sites
+.. _gitorious: http://gitorious.org
 
 .. Fernando's links
 .. _Fernando's site: http://fperez.org
@@ -23,7 +28,6 @@
 .. _office_map: http://maps.google.com/maps/place?cid=1511778024603995956&q=cirl&hl=en
 
 .. People
-.. _Valia: 
 
 .. Berkeley
 .. _bic: http://bic.berkeley.edu
@@ -38,6 +42,7 @@
 .. nipy
 .. _nipy community: http://nipy.org
 .. _nipy package: http://nipy.org/stable
+.. _nipy blog: http://nipyworld.blogspot.com/
 .. _nibabel: http://nipy.org/nibabel
 .. _dipy: http://nipy.org/dipy
 .. _nitime: http://nipy.sourceforge.net/nitime

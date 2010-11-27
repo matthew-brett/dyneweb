@@ -15,16 +15,21 @@ functional and diffusion imaging data.  This is the `nipy community`_
 project.  I personally work a lot on nibabel_ as well as the `nipy package`_ and
 dipy_.
 
+I sometimes write about the nipy experience in the `nipy blog`_.
+
 I try to keep my list of :ref:`publications` up to date.  Please let me know if
 I've missed something off or you need a copy of one of the listed papers.
 
 No doubt you want to know what I look like and how to find me - good news - see
-:ref:`personal`.
+:ref:`about-me`.
+
+Maybe you want to know how I built these pages - :ref:`about-site`.
 
 .. toctree::
     :hidden:
 
-    personal
+    about_me
+    about_site
     research/index
 
 .. include:: links.txt

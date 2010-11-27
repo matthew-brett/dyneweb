@@ -1,4 +1,4 @@
-.. _personal:
+.. _about-me:
 
 ==========
  About me
