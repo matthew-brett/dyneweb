@@ -5,4 +5,3 @@ Research
 .. toctree::
 
     publications
-    cv
