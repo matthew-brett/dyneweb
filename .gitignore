@@ -1,9 +1,9 @@
 _build
-papers
 
-*.pdf
 *.ppt
 *.odp
 
 *_thumb*.png
 *_thumb*.jpg
+
+*.pyc
