@@ -32,6 +32,13 @@ Abstracts and conference papers
 
     Johnsrude2001
 
+..
+    Johnsrude, I. S., Giraud, A. L., Morosan, P., Brett, M., Owen, A. M., & Zilles, K. (2000).
+    Functional Imaging of the auditory system: The use of positron emission tomography.
+    In K. Jahnke & M. Fischer (Eds.), *Proceedings of the 4th European Congress of Oto-Rhino-Laryngology Head and Neck Surgery* (pp.
+    49-58).
+    Bologna.
+
 Methodology
 ===========
 
@@ -57,8 +64,16 @@ Articles and book chapters
     Brett2001
     Rorden2000
     Turkheimer2000
+    # this next is missing, was similar to 2000 one - see below
     Turkheimer2000a
     Turkheimer1999
+
+..
+    Turkheimer, F. E., Brett, M., Visvikis, D., & Cunningham, V. J. (2000).
+    Statistical estimation of PET images in the wavelet domain.
+    In A. Gjedde (Ed.), *Physiological imaging of the brain with PET* (pp.
+    29-33).
+    San Diego.
 
 Abstracts and conference papers
 -------------------------------
@@ -82,8 +97,8 @@ About other things
     Chesser1989
 
 
-Abstracts
-=========
+Abstract references that need fixing up
+=======================================
 
 Spencer, R. M. C., Verstynen, T., Brett, M., Ivry, R. B (2004) Cerebellar activation during discrete and continuous repetitive tapping movements.
 *Abstract Viewer and Itinerary Planner.
@@ -129,3 +144,7 @@ Brett, M., Stein, J. F., & Brooks, D. J. (1998).
 
 Brett, M., Jenkins, I. H., Stein, J. F., & Brooks, D. J. (1997).
 . *NeuroImage*, 5, S269.
+
+.. only:: html
+
+    :download:`bibtex reference file <matthew_brett.bib>`

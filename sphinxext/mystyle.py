@@ -28,6 +28,7 @@ CITATION_TEMPLATE.update(dict(
                '%(year)s. pp. %(pages)s.'),
     inproceedings  = '(%(year)s) "%(title)s". In %(editor)s (Eds.) *%(booktitle)s*, %(address)s: %(publishers)s',
     incollection  = '(%(year)s) "%(title)s". In %(editor)s (Eds.) *%(booktitle)s*, %(address)s: %(publishers)s',
+    inbook  = '(%(year)s) "%(chapter)s". In %(editor)s (Eds.) *%(title)s*, %(address)s: %(publishers)s',
     book = '(%(year)s) *%(title)s*. %(address)s: %(publisher)s.',
     techreport  = '(%(year)s) "%(title)s". %(institution)s %(type)s %(number)s. %(url)s',
 ))
@@ -48,9 +49,14 @@ class CitationManager(bbd.shared.CitationManager):
 
     def format_citation(self, entry):
         res = super(CitationManager, self).format_citation(entry)
-        if 'doi' in entry:
-            res += ' `doi: %s <http://dx.doi.org/%s>`_' % (
-                entry['doi'], entry['doi'])
-        if 'download-pdf' in entry:
-            res +=' :download:`[pdf] <%s>`' % entry['download-pdf']
+        doi = entry.get('doi')
+        if doi:
+            res += ' `doi: %s <http://dx.doi.org/%s>`_' % (doi, doi)
+        content = entry.get('local-content')
+        if content:
+            res +=' :download:`[download] <%s>`' % content
+        # This one for a conference poster
+        poster = entry.get('local-poster')
+        if poster:
+            res += ' :download:`[poster] <%s>`' % poster
         return res
