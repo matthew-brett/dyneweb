@@ -88,6 +88,7 @@ Articles and book chapters
     Gustard2001
     Brett2001
     Rorden2000
+    Turkheimer2001
     Turkheimer2000
     Turkheimer1999
 
@@ -111,7 +112,6 @@ Abstracts and conference papers
     Fadili2002
     Brett2002marsbar
     Johnsrude2001cyto
-    Turkheimer2001wpet
     Brett1999time
     Brett2001mni
 
