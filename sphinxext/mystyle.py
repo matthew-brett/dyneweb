@@ -52,9 +52,13 @@ class CitationManager(bbd.shared.CitationManager):
         doi = entry.get('doi')
         if doi:
             res += ' `doi: %s <http://dx.doi.org/%s>`_' % (doi, doi)
-        content = entry.get('local-content')
+        content = entry.get('remote-content')
         if content:
-            res +=' :download:`[download] <%s>`' % content
+            res +=' `content <%s>`_' % content
+        else:
+            content = entry.get('local-content')
+            if content:
+                res +=' :download:`[download] <%s>`' % content
         # This one for a conference poster
         poster = entry.get('local-poster')
         if poster:
