@@ -54,13 +54,6 @@ Articles and book chapters
     Turkheimer2000
     Turkheimer1999
 
-..
-    Turkheimer, F. E., Brett, M., Visvikis, D., & Cunningham, V. J. (2000).
-    Statistical estimation of PET images in the wavelet domain.
-    In A. Gjedde (Ed.), *Physiological imaging of the brain with PET* (pp.
-    29-33).
-    San Diego.
-
 Abstracts and conference papers
 -------------------------------
 
