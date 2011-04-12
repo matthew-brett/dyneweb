@@ -7,72 +7,70 @@ Curriculum Vitae
 Personal Details
 ================
 
-+----------------+--------------------------+------------------+-------------------------+
-| *Name*:        | Matthew Brett            | *Date of birth*: | November 20, 1964       |
-+================+==========================+==================+=========================+
-| *Nationality*: | British                  | *e\-mail*:       | matthew.brett@gmail.com |
-+----------------+--------------------------+------------------+-------------------------+
-| Work address:  | 10 Giannini Hall,        |                  |                         |
-|                | University of California,|                  |                         |
-|                | Berkeley CA 94720        |                  |                         |
-+----------------+--------------------------+------------------+-------------------------+
+**Date of birth**
+    November 20, 1964
 
+**Nationality**
+    British
+
+**email**
+    matthew.brett@gmail.com
+
+**Work address**
+     | Brain imaging center
+     | 10 Giannini hall
+     | University of California
+     | Berkeley CA 94720
 
 Research Positions
 ==================
 
-+------------------+-----------------------------------------------------------------------------------------------------------------------------------+
-| Aug 08 -         | Visiting researcher at the Brain Imaging Center, University of California, Berkeley                                               |
-+------------------+-----------------------------------------------------------------------------------------------------------------------------------+
-| Oct 05 – July 08 | Senior investigator scientist at the MRC Cognition & Brain Sciences Unit (Cambridge, UK)                                          |
-+------------------+-----------------------------------------------------------------------------------------------------------------------------------+
-| Oct 03\-Sept 05  | Associate specialist in psychology at the University of California, Berkeley.                                                     |
-+------------------+-----------------------------------------------------------------------------------------------------------------------------------+
-| Mar 99 – Sept 03 | Research associate at the MRC Cognition & Brain Sciences Unit (Cambridge, UK).                                                    |
-+------------------+-----------------------------------------------------------------------------------------------------------------------------------+
-| Feb 96 - Feb 99  | Research registrar in neurology at the MRC Cyclotron Unit, Hammersmith hospital and Oxford University, Department of Physiology.  |
-+------------------+-----------------------------------------------------------------------------------------------------------------------------------+
-
+**August 2008 -**
+    Associate researcher at the Brain Imaging Center, University of California, Berkeley
+**October 2005 – July 2008**
+    Senior investigator scientist at the MRC Cognition & Brain Sciences Unit
+    (Cambridge, UK)
+**October 2003 – September 2005**
+    Associate specialist in psychology at the University of California, Berkeley
+**March 1999 – September 2003**
+    Research associate at the MRC Cognition & Brain Sciences Unit (Cambridge, UK)
+**February 1996 – February 1999**
+    Research registrar in neurology at the MRC Cyclotron Unit, Hammersmith
+    hospital and Oxford University, Department of Physiology
 
 Medical Positions
 =================
 
-+-------------------+------------------------------------------------------------------------------------------------+
-| June 95 – Jan 96  | Registrar in neurology at the Radcliffe Infirmary, Oxford, UK                                  |
-+-------------------+------------------------------------------------------------------------------------------------+
-| Aug 94 – April 95 | Senior house officer in neurology at The National Hospital for Neurology, Queen square, London |
-+-------------------+------------------------------------------------------------------------------------------------+
-| Aug 92 – July 94  | Senior house officer rotation at St Bartholomew’s Hospital, London                             |
-+-------------------+------------------------------------------------------------------------------------------------+
-| Feb 92 – July 92  | Senior house officer in neurosciences at Addenbrookes Hospital, Cambridge                      |
-+-------------------+------------------------------------------------------------------------------------------------+
-| Aug 91 – Jan 92   | Research worker at the Institute of Psychiatry, London                                         |
-+-------------------+------------------------------------------------------------------------------------------------+
-| Aug 90 – July 91  | House officer at the Royal London Hospital                                                     |
-+-------------------+------------------------------------------------------------------------------------------------+
-
+**June 1995 – January 1996**
+    Registrar in neurology at the Radcliffe Infirmary, Oxford, UK
+**August 1994 – April 1995**
+    Senior house officer in neurology at The National Hospital for Neurology, Queen square, London
+**August 1992 – July 1994**
+    Senior house officer rotation at St Bartholomew’s Hospital, London
+**February 1992 – July 1992**
+    Senior house officer in neurosciences at Addenbrookes Hospital, Cambridge
+**August 1991 – January 1992**
+    Research worker at the Institute of Psychiatry, London
+**August 1990 – July 1991**
+    House officer at the Royal London Hospital
 
 Education and Qualifications
 ============================
 
-+-------------+---------------------------------------------------------+
-| 1994        | Membership of the Royal College of Physicians (UK)      |
-+-------------+---------------------------------------------------------+
-| 1987\-1990  | Bachelor of Medicine and Surgery (MB BChir)             |
-+-------------+---------------------------------------------------------+
-| 1984\-1987  | BA 2.i; Experimental Psychology \- Cambridge University |
-+-------------+---------------------------------------------------------+
-
+**1994**
+    Membership of the Royal College of Physicians (UK)
+**1987 – 1990**
+    Bachelor of Medicine and Surgery (MB BChir)
+**1984 – 1987**
+    BA 2.i; Experimental Psychology, Cambridge University (UK)
 
 Awards
 ======
 
-+-------+------------------------------------------------------------------------+
-| 1996  | British Brain and Spine Foundation 3 year research training fellowship |
-+-------+------------------------------------------------------------------------+
-| 1984  | Open Entrance Scholarship to Cambridge University                      |
-+-------+------------------------------------------------------------------------+
-
+**1996**
+    British Brain and Spine Foundation 3 year research training fellowship
+**1984**
+    Open Entrance Scholarship to Cambridge University
 
 Research Program
 ================
@@ -93,36 +91,55 @@ Reviewer for NeuroImage, Human Brain Mapping, Journal of Cognitive Neuroscience,
 Neuroscience Letters, Clinical Neurophysiology, Journal of Neuroimaging,
 Frontiers in Neuroinformatics
 
-Supervisor of two PhD students: 
+Supervisor of two PhD students
+++++++++++++++++++++++++++++++
 
-*2000 - 2004 : * working on the role of SMA and basal ganglia in motor learning, mechanisms of apraxia and methods of functional MRI analysis (submitted May 2004).
-(training as clinical psychologist)
+**2000 – 2004** *Katja Osswald*
+    The role of SMA and basal ganglia in motor learning, mechanisms of apraxia
+    and methods of functional MRI analysis (submitted May 2004).  Katja is now a
+    clinical psychologist.
 
-*2001 - 2004: Jessica Grahn *working on the functional anatomy musical beat perception (submitted December 2004) (currently research scientist at MRC-CBU)
+**2001 – 2004** *Jessica Grahn*
+    The functional anatomy of musical beat perception. Jessica is currently an
+    assistant professor in the department of psychology in the university of
+    Western Ontario.
 
-Advisor to two post-doctoral researchers: 
+Advisor to two post-doctoral researchers
+++++++++++++++++++++++++++++++++++++++++
 
-*2001 – 2002 : Alexandre Andrade *working on surface-based FMRI statistics, coherence analysis (now professor in biophysics in Lisbon, Portugal)
+**2001 – 2002** *Alexandre Andrade*
+    working on surface-based FMRI statistics, coherence analysis.  Alexandre is
+    now professor in biophysics in Lisbon, Portugal
 
-*2002 - 2006: Ferath Kherif *working on multivariate statistics for clustering and diagnostics of functional imaging data (methodologist working with Cathy Price in FIL, London)
+**2002 – 2006** *Ferath Kherif*
+    working on multivariate statistics for clustering and diagnostics of
+    functional imaging data. Ferath is currently a prinicpal investigator at the
+    Service of Neurology, Centre Hospitalier Universitaire Vaudois in Lausanne,
+    Switzerland.
 
 Teaching and Tutorials
+======================
 
-Author of a large number of imaging tutorial pages (see http://imaging.mrc-cbu.cam.ac.uk/imaging).
+Author of a large number of imaging tutorial pages (see
+http://imaging.mrc-cbu.cam.ac.uk/imaging).
 
+Have given many invited talks on various topics in neuroimaging methods in
+Cambridge, London, Oxford, York, Sheffield, Paris, Lyon, Marseille, Tokyo,
+Buenos Aires, Berkeley, Stanford.
 
-Have given many invited talks on various topics in neuroimaging methods in Cambridge, London, Oxford, York, Sheffield, Paris, Lyon, Marseille, Tokyo, Buenos Aires, Berkeley, Stanford.
+* 2008 – : regular post-graduate teaching on the course on imaging organized by
+  Mark D'Esposito, and Neuroscience Seminar Series organized by Sonia Bishop
+* 2004, 2006, 2007: Invited speaker for Human Brain Mapping conference course on FMRI
+* 2005: (with Ansgar Furst) delivered 4 day SPM course in Oslo
+* 2005: Faculty for Yale SPM course
+* 2006 – 2008: Neuroscience supervisor for Jesus College, Cambridge.
+* 2000 – 2003: Invited speaker at annual functional imaging courses held in Paris.
+* 2001: Delivered a three day neuroimaging / SPM course in University of Melbourne.
 
-2004, 2006, 2007: Invited speaker for Human Brain Mapping conference course on FMRI 
+.. only:: latex
 
-2005: (with Ansgar Furst) delivered 4 day SPM course in Oslo
+    This doesn't work and requires more thought
 
-2005: Faculty for Yale SPM course 
-
-2006-2008: Neuroscience supervisor for Jesus College, Cambridge.
-
-2000 – 2003: Invited speaker at annual functional imaging courses held in Paris.
-
-2001: Delivered a three day neuroimaging course in University of Melbourne.
-
-1996-1999 Taught neuroanatomy to Oxford medical undergraduates.
+    \nocite{*}
+    \bibliographystyle{plainyr}
+    \bibliography{matthew_brett.bib}

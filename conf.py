@@ -197,8 +197,8 @@ htmlhelp_basename = 'Matthew Brett'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'MatthewBrett.tex', u'Matthew Brett pages',
-   u'Matthew Brett', 'manual'),
+  ('research/cv', 'mbcv.tex', u'Matthew Brett curriculum vitae',
+   u'Matthew Brett', 'howto'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
