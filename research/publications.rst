@@ -36,6 +36,7 @@ Articles and book chapters
     :style: mystyle
     :sort:
 
+    Poline2012
     Schwarzbauer2010
     Poldrack2008
     Crinion2007
