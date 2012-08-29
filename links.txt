@@ -43,7 +43,7 @@
 
 .. nipy
 .. _nipy community: http://nipy.org
-.. _nipy package: http://nipy.org/stable
+.. _nipy package: http://nipy.org/nipy
 .. _nipy blog: http://nipyworld.blogspot.com/
 .. _nibabel: http://nipy.org/nibabel
 .. _dipy: http://nipy.org/dipy
