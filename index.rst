@@ -6,9 +6,10 @@ These are my personal web pages.
 
 I work at the Berkeley brain imaging center (BIC_).
 
-I used to work on functional imaging of movement.
+I used to work on :ref:`functional imaging of movement <pubs-movement>`.
 
-Later I worked on some aspects of functional imaging methodology.
+Later I worked on some aspects of functional imaging :ref:`methodology
+<pubs-methodology>`.
 
 At the moment I am helping to write new software in Python_ for analyzing
 functional and diffusion imaging data.  This is the `nipy community`_
@@ -21,8 +22,9 @@ Most of the code I work on is at `matthew-brett github`_.
 
 There are some tutorials at pydagogue_.
 
-I try to keep my list of :ref:`publications` up to date.  Please let me know if
-I've missed something off or you need a copy of one of the listed papers.
+I try to keep my list of :ref:`publications <publications>` up to date.  Please
+let me know if I've missed something off or you need a copy of one of the listed
+papers.
 
 No doubt you want to know what I look like and how to find me - good news - see
 :ref:`about-me`.

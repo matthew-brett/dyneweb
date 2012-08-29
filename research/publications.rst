@@ -4,6 +4,8 @@
 Articles and abstracts
 **********************
 
+.. _pubs-computing:
+
 Computing
 =========
 
@@ -25,6 +27,8 @@ Abstracts
 
     Taylor2005brainpy
     Brett2009nipy
+
+.. _pubs-methodology:
 
 Methodology
 ===========
@@ -71,6 +75,8 @@ Abstracts and conference papers
     Brett1999time
     Brett2001mni
 
+.. _pubs-movement:
+
 Functional imaging of movement and thinking
 ===========================================
 
@@ -107,6 +113,8 @@ Abstracts and conference papers
     In K. Jahnke & M. Fischer (Eds.), *Proceedings of the 4th European Congress of Oto-Rhino-Laryngology Head and Neck Surgery* (pp.
     49-58).
     Bologna.
+
+.. _pubs-other:
 
 About other things
 ==================
