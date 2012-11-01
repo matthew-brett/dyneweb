@@ -20,7 +20,8 @@ I sometimes write about the nipy experience in the `nipy blog`_.
 
 Most of the code I work on is at `matthew-brett github`_.
 
-There are some tutorials at pydagogue_.
+I wrote some tutorials hosted at pydagogue_.  My personal favorite is an
+introduction to git_ concepts called `git foundations`_
 
 I try to keep my list of :ref:`publications <publications>` up to date.  Please
 let me know if I've missed something off or you need a copy of one of the listed

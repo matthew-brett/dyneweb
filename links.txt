@@ -16,9 +16,11 @@
 .. _site source: http://gitorious.org/personal-www/dyneweb
 .. _Michael Sowa: http://en.wikipedia.org/wiki/Michael_Sowa
 .. _pydagogue: http://matthew-brett.github.com/pydagogue
+.. _git foundations: http://matthew-brett.github.com/pydagogue/foundation.html
 .. _matthew-brett github: http://github.com/matthew-brett
 
 .. source control sites
+.. _git: http://git-scm.com/
 .. _gitorious: http://gitorious.org
 
 .. Fernando's links
