@@ -1,11 +1,12 @@
 .. _cv:
 
-================
+################
 Curriculum Vitae
-================
+################
 
+****************
 Personal Details
-================
+****************
 
 **Date of birth**
     November 20, 1964
@@ -17,13 +18,14 @@ Personal Details
     matthew.brett@gmail.com
 
 **Work address**
-     | Brain imaging center
-     | 10 Giannini hall
+     | Helen Wills neuroscience institute
+     | Barker Hall
      | University of California
      | Berkeley CA 94720
 
+******************
 Research Positions
-==================
+******************
 
 **August 2008 -**
     Associate researcher at the Brain Imaging Center, University of California, Berkeley
@@ -38,8 +40,9 @@ Research Positions
     Research registrar in neurology at the MRC Cyclotron Unit, Hammersmith
     hospital and Oxford University, Department of Physiology
 
+*****************
 Medical Positions
-=================
+*****************
 
 **June 1995 – January 1996**
     Registrar in neurology at the Radcliffe Infirmary, Oxford, UK
@@ -54,8 +57,9 @@ Medical Positions
 **August 1990 – July 1991**
     House officer at the Royal London Hospital
 
+****************************
 Education and Qualifications
-============================
+****************************
 
 **1994**
     Membership of the Royal College of Physicians (UK)
@@ -64,16 +68,18 @@ Education and Qualifications
 **1984 – 1987**
     BA 2.i; Experimental Psychology, Cambridge University (UK)
 
+******
 Awards
-======
+******
 
 **1996**
     British Brain and Spine Foundation 3 year research training fellowship
 **1984**
     Open Entrance Scholarship to Cambridge University
 
+****************
 Research Program
-================
+****************
 
 I work on developing, implementing and teaching methods of functional data
 analysis including FMRI and diffusion weighted imaging.  have a strong interest
@@ -84,15 +90,16 @@ Particular scientific interests include technical and theoretical problems in
 spatial normalization (inter-subject registration), region of interest analysis,
 and new methods of statistical analysis across subjects and tasks.
 
+*********************
 Scientific activities
-======================
+*********************
 
 Reviewer for NeuroImage, Human Brain Mapping, Journal of Cognitive Neuroscience,
 Neuroscience Letters, Clinical Neurophysiology, Journal of Neuroimaging,
 Frontiers in Neuroinformatics
 
 Supervisor of two PhD students
-++++++++++++++++++++++++++++++
+==============================
 
 **2000 – 2004** *Katja Osswald*
     The role of SMA and basal ganglia in motor learning, mechanisms of apraxia
@@ -105,7 +112,7 @@ Supervisor of two PhD students
     Western Ontario.
 
 Advisor to two post-doctoral researchers
-++++++++++++++++++++++++++++++++++++++++
+========================================
 
 **2001 – 2002** *Alexandre Andrade*
     working on surface-based FMRI statistics, coherence analysis.  Alexandre is
@@ -135,11 +142,3 @@ Buenos Aires, Berkeley, Stanford.
 * 2006 – 2008: Neuroscience supervisor for Jesus College, Cambridge.
 * 2000 – 2003: Invited speaker at annual functional imaging courses held in Paris.
 * 2001: Delivered a three day neuroimaging / SPM course in University of Melbourne.
-
-.. only:: latex
-
-    This doesn't work and requires more thought
-
-    \nocite{*}
-    \bibliographystyle{plainyr}
-    \bibliography{matthew_brett.bib}

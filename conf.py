@@ -197,8 +197,8 @@ htmlhelp_basename = 'Matthew Brett'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('research/cv', 'mbcv.tex', u'Matthew Brett curriculum vitae',
-   u'Matthew Brett', 'howto'),
+  ('research/cv_wrapper', 'mbcv.tex', u'Matthew Brett - curriculum vitae',
+   '', 'howto'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -223,7 +223,22 @@ latex_documents = [
 
 # If false, no module index is generated.
 #latex_domain_indices = True
+PREAMBLE = ur'''%\documentclass{article}
+\setcounter{secnumdepth}{-1}
+\renewcommand\tableofcontents{}
+\renewcommand\release{}
+\renewcommand\author{}
+'''
 
+# f = open('graph/static/latexstyling.tex', 'r+')
+# PREAMBLE = f.read();
+
+latex_elements = {
+    'pointsize':'11pt',
+    'classoptions': ',openany',
+    'babel': '\\usepackage[english]{babel}',
+    'preamble': PREAMBLE
+}
 
 # -- Options for manual page output --------------------------------------------
 
