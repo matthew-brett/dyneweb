@@ -1,0 +1,23 @@
+\documentclass{article}
+
+\usepackage[defernumbers=true,backend=biber, sorting=ydnt]{biblatex}
+
+\usepackage{hyperref}
+
+\addbibresource{matthew_brett.bib}
+
+\begin{document}
+
+Some text
+
+\nocite{*}
+
+\printbibheading[title={Publications}]
+
+\printbibliography[heading=subbibliography,keyword=computing,title={Computing: articles}]
+
+\printbibliography[heading=subbibliography,keyword=methods,title={Computing: articles}]
+
+\printbibliography[keyword=others,title={Everything Else}]
+
+\end{document}
