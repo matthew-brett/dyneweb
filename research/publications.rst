@@ -40,6 +40,7 @@ Articles and book chapters
     :style: mystyle
     :sort:
 
+    garyfallidis6quickbundles
     Poline2012
     Schwarzbauer2010
     Poldrack2008
@@ -87,6 +88,7 @@ Articles
     :style: mystyle
     :sort:
 
+    rodriguez2012absence
     Grahn2009
     Grahn2007
     Spencer2007
