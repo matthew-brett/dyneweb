@@ -18,6 +18,11 @@ dipy_.
 
 I sometimes write about the nipy experience in the `nipy blog`_.
 
+Like many other people, I am starting to explore ways of explaining technical
+ideas using code and formulae in the `IPython notebook`_.  My most complete
+explanation so far is `exploring formulae in R
+<http://nbviewer.ipython.org/urls/raw.github.com/fperez/nipy-notebooks/master/exploring_r_formula.ipynb>`_.
+
 Most of the code I work on is at `matthew-brett github`_.
 
 I wrote some tutorials hosted at pydagogue_.  My personal favorite is an

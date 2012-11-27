@@ -13,7 +13,7 @@ Email
     first.last@gmail.com
 
 Office
-    | Barker Hall
+    | 210 Barker Hall
     | See the `campus interactive map`_
 
 .. _campus interactive map : http://berkeley.edu/map/3dmap/3dmap.shtml?barker
