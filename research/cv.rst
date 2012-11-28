@@ -95,8 +95,11 @@ Scientific activities
 *********************
 
 Reviewer for NeuroImage, Human Brain Mapping, Journal of Cognitive Neuroscience,
-Neuroscience Letters, Clinical Neurophysiology, Journal of Neuroimaging,
-Frontiers in Neuroinformatics
+Neuroscience Letters, Clinical Neurophysiology, Journal of Neuroimaging, the
+Journal of Clinical and Experimental Neuropsychology, Frontiers in
+Neuroinformatics, Computing in Science and Engineering. Member of the editorial
+board of *Frontiers in Brain Imaging Methods*.
+
 
 Supervisor of two PhD students
 ==============================
@@ -136,6 +139,7 @@ Buenos Aires, Berkeley, Stanford.
 
 * 2008 – : regular post-graduate teaching on the course on imaging organized by
   Mark D'Esposito, and Neuroscience Seminar Series organized by Sonia Bishop
+* 2007 - invited speaker for 5th LATIN-AMERICAN CONGRESS OF CLINICAL NEUROPHYSIOLOGY
 * 2004, 2006, 2007: Invited speaker for Human Brain Mapping conference course on FMRI
 * 2005: (with Ansgar Furst) delivered 4 day SPM course in Oslo
 * 2005: Faculty for Yale SPM course
