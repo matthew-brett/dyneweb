@@ -14,7 +14,7 @@ Personal Details
 **Nationality**
     British
 
-**email**
+**Email**
     matthew.brett@gmail.com
 
 **Work address**
@@ -27,7 +27,7 @@ Personal Details
 Research Positions
 ******************
 
-**August 2008 -**
+**August 2008 - present**
     *Associate researcher at the Brain Imaging Center, University of California,
     Berkeley*. Consulting on design and analysis of functional brain imaging
     data; post-graduate teaching on functional brain image analysis and on
@@ -143,19 +143,19 @@ Member of the graduate committee for the MRC cognition and brain sciences unit
 Undergraduate supervision
 =========================
 
-* 2007-2008 : supervised Cambridge medical students on neuroscience for Jesus
-  college.
-* 1994-1995 : supervised Oxford medical students on neuroanatomy
+* Lent 2007 through Easter 2008 : Supervised Cambridge medical students on
+  neuroscience for Jesus college.
+* 1994-1995 : Supervised Oxford medical students on neuroanatomy
 
 Post-doctoral scholars supervised
 =================================
 
 **2001 – 2002** *Alexandre Andrade*
-    working on surface-based functional MRI statistics, coherence analysis.
+    Working on surface-based functional MRI statistics, coherence analysis.
     Alexandre is now professor in biophysics in Lisbon, Portugal
 
 **2002 – 2006** *Ferath Kherif*
-    working on multivariate statistics for clustering and diagnostics of
+    Working on multivariate statistics for clustering and diagnostics of
     functional imaging data. Ferath is currently a prinicpal investigator at the
     Service of Neurology, Centre Hospitalier Universitaire Vaudois in Lausanne,
     Switzerland.
@@ -170,21 +170,21 @@ from functional MRI. It is mostly written in MATLAB with some C mex extensions.
 Main author and maintainer of MarsBaR region of interest analysis toolbox
 (http://marsbar.sourceforge.net) (MATLAB).  MarsBaR is a toolbox based on SPM
 and also written in MATLAB. Our abstract listed as the citation for MarsBaR has
-been cited over 1000 times (Brett et al 2002)
+been cited over 1000 times (Brett *et al* 2002).
 
 Main author of Phiwave wavelet toolbox for SPM (http://phiwave.sourceforge.net)
 (MATLAB and C-mex extensions).  Phiwave implements the ideas described in Aston
-et al (2006) and Turkheimer et al (2000).
+*et al* (2006) and Turkheimer *et al* (2000).
 
 Main author and maintainer of `nibabel` image input / output library
-(http://nipy/nibabel) (Python). Library for reading and writing
+(http://nipy.org/nibabel) (Python). Library for reading and writing
 medical image formats, including limited support for DICOM.  Recorded by Ohloh
 web analysis as >91K lines of code, and equivalent cost of $1.3M
-(https://www.ohloh.net/p/nibabel?ref=sample).
+(https://www.ohloh.net/p/nibabel).
 
 Lead developer and maintainer of `nipy` functional imaging library
-(http://nipy/nipy) (Python and C extensions)
-(https://www.ohloh.net/p/nipy?ref=sample)
+(http://nipy.org/nipy) (Python and C extensions)
+(https://www.ohloh.net/p/nipy).
 
 Significant contributor to the `dipy` library for analysis of diffusion imaging
 (http://nipy.org/dipy) (Python).
@@ -228,14 +228,14 @@ Invited talks on various topics in neuroimaging methods in Cambridge, London,
 Oxford, York, Sheffield, Paris, Lyon, Marseille, Tokyo, Buenos Aires, Berkeley,
 Stanford.
 
-* 2008 – : regular post-graduate teaching on the course on imaging organized by
+* 2008 – : Regular post-graduate teaching on the course on imaging organized by
   Mark D'Esposito, and Neuroscience Seminar Series organized by Sonia Bishop. I
   teach the principles of functional image analysis including within subject and
   cross subject coregistration, diagnostics, statistical testing statistical
   inference. I also teach basic diffusion imaging analysis.
-* 2007 - invited speaker for 5th Latin-American congress of clinical neurophysiology
-* 2004, 2006, 2007: Invited speaker for Human Brain Mapping conference course on functional MRI
+* 2007 - Invited speaker for 5th Latin-American congress of clinical neurophysiology
+* 2004, 2006, 2007: Invited speaker for Human Brain Mapping conference course on functional MRI.
 * 2005: (with Ansgar Furst) delivered 4 day SPM course in Oslo.
-* 2005: Faculty for Yale SPM course
+* 2005: Faculty for Yale SPM course.
 * 2000 – 2003: Invited speaker at annual functional imaging courses held in Paris.
 * 2001: Delivered a three day neuroimaging / SPM course in University of Melbourne.
