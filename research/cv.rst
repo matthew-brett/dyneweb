@@ -186,42 +186,47 @@ Teaching, tutorials, invited talks
 Software engineering
 --------------------
 
-Online tutorials include an informal explanation of the design of the `git`
-distributed version control system
-(http://matthew-brett.github.com/pydagogue/foundation.html) and tutorials on
-floating point implementation and mathematics
-(http://matthew-brett.github.com/pydagogue/floating_point.html,
-http://matthew-brett.github.com/pydagogue/floating_error.html), and a detailed
-exposition of the formula interface in the R statistical language using the code
-and mathematics in the IPython notebook
-http://nbviewer.ipython.org/urls/raw.github.com/fperez/nipy-notebooks/master/exploring_r_formula.ipynb)
+Online tutorials include:
+
+* an informal explanation of the design of the `git` distributed version control
+  system : (http://matthew-brett.github.com/pydagogue/foundation.html
+* floating point representation :
+  http://matthew-brett.github.com/pydagogue/floating_point.html
+* floating point error: http://matthew-brett.github.com/pydagogue/floating_error.html
+* the formula interface to statistical models in the R language using code and
+  mathematics in the IPython notebook
+  http://nbviewer.ipython.org/urls/raw.github.com/fperez/nipy-notebooks/master/exploring_r_formula.ipynb)
 
 Imaging methods
 ---------------
 
-Author of several widely-read imaging tutorial pages for neuroscientists (
-http://imaging.mrc-cbu.cam.ac.uk/imaging/AnalysisPrinciples) , covering the
-relationship of basic analysis of variance and regression to linear algebra
-(http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesStatistics), 3D convolution
-(http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesSmoothing), Random field
-theory for statistical inference with multiple comparisons
-(http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesRandomFields,
-http://imaging.mrc-cbu.cam.ac.uk/imaging/SmallVolumeCorrection).  These last two
-pages became the basis for a chapter on random field theory in a standard text
-on functional MRI analysis (Brett et al 2007).
+Author of several widely-read imaging tutorial pages for neuroscientists,
+including:
 
-Invited talks on various topics in neuroimaging methods in Cambridge, London,
-Oxford, York, Sheffield, Paris, Lyon, Marseille, Tokyo, Buenos Aires, Berkeley,
-Stanford.
+* The relationship of basic analysis of variance and regression to linear
+  algebra: http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesStatistics
+* 3D convolution: http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesSmoothing
+* Random field theory for statistical inference with multiple comparisons:
+  http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesRandomFields,
+  http://imaging.mrc-cbu.cam.ac.uk/imaging/SmallVolumeCorrection.  These last
+  two pages became the basis for a chapter on random field theory in a standard
+  text on functional MRI analysis (Brett et al 2007).
+
+Invited talks on neuroimaging methods in Cambridge, London, Oxford, York,
+Sheffield, Paris, Lyon, Marseille, Tokyo, Buenos Aires, Berkeley, Stanford,
+including:
+
+* 2007 - invited speaker for 5th Latin-American congress of clinical neurophysiology
+* 2004, 2006, 2007: Invited speaker for Human Brain Mapping conference course on functional MRI
+* 2000 – 2003: Invited speaker at annual functional imaging courses held in Paris.
+
+Teaching of functional imaging methods include:
 
 * 2008 – : Regular post-graduate teaching on the course on imaging organized by
   Mark D'Esposito, and Neuroscience Seminar Series organized by Sonia Bishop. I
   teach the principles of functional image analysis including within subject and
   cross subject coregistration, diagnostics, statistical testing statistical
   inference. I also teach basic diffusion imaging analysis.
-* 2007 - Invited speaker for 5th Latin-American congress of clinical neurophysiology
-* 2004, 2006, 2007: Invited speaker for Human Brain Mapping conference course on functional MRI.
 * 2005: (with Ansgar Furst) delivered 4 day SPM course in Oslo.
 * 2005: Faculty for Yale SPM course.
-* 2000 – 2003: Invited speaker at annual functional imaging courses held in Paris.
 * 2001: Delivered a three day neuroimaging / SPM course in University of Melbourne.
