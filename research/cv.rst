@@ -19,7 +19,7 @@ Personal Details
 
 **Work address**
      | Helen Wills neuroscience institute
-     | Barker Hall
+     | 120 Barker Hall
      | University of California
      | Berkeley CA 94720
 
@@ -28,45 +28,65 @@ Research Positions
 ******************
 
 **August 2008 -**
-    Associate researcher at the Brain Imaging Center, University of California, Berkeley
+    *Associate researcher at the Brain Imaging Center, University of California,
+    Berkeley*. Consulting on design and analysis of functional brain imaging
+    data; post-graduate teaching on functional brain image analysis and on
+    diffusion image analysis; development of `nipy` open source software
+    projects (see below); contributing to development of new algorithms for
+    analysis of diffusion imaging.
 **October 2005 – July 2008**
-    Senior investigator scientist at the MRC Cognition & Brain Sciences Unit
-    (Cambridge, UK)
+    *Senior investigator scientist at the MRC Cognition & Brain Sciences Unit,
+    Cambridge*. Working with Ian Nimmo-Smith and other members of the methods
+    group. Consulting on design and analysis of functional brain imaging data
+    and diffusion imaging data, new research on brain imaging methods, teaching
+    of functional imaging methods.
 **October 2003 – September 2005**
-    Associate specialist in psychology at the University of California, Berkeley
+    *Associate specialist in psychology at the University of California,
+    Berkeley*.  Working with Rich Ivry. Research into mechanisms of movement
+    selection using functional brain imaging.
 **March 1999 – September 2003**
-    Research associate at the MRC Cognition & Brain Sciences Unit (Cambridge, UK)
+    *Research associate at the MRC Cognition & Brain Sciences Unit, Cambridge*.
+    Working with John Duncan on mechanisms of movement selection using
+    functional brain imaging (positron emission tomography, functional MRI
+    scanning).  Also working on algorithms for matching structural brain images
+    from damaged brains to normal brain templates.
 **February 1996 – February 1999**
-    Research registrar in neurology at the MRC Cyclotron Unit, Hammersmith
-    hospital and Oxford University, Department of Physiology
+    *Research registrar in neurology at the MRC Cyclotron Unit, Hammersmith
+    hospital and Oxford laboratory of physiology*. Jointly supervised by David
+    Brooks (London) and John Stein (Oxford).  Using regional blood flow images
+    from positron emission tomography to study the role of motor areas in
+    response design and selection.
+
 
 *****************
 Medical Positions
 *****************
 
 **June 1995 – January 1996**
-    Registrar in neurology at the Radcliffe Infirmary, Oxford, UK
+    Registrar in neurology at the Radcliffe Infirmary, Oxford
 **August 1994 – April 1995**
     Senior house officer in neurology at The National Hospital for Neurology, Queen square, London
 **August 1992 – July 1994**
-    Senior house officer rotation at St Bartholomew’s Hospital, London
+    Senior house officer medical rotation at St Bartholomew’s Hospital, London
 **February 1992 – July 1992**
     Senior house officer in neurosciences at Addenbrookes Hospital, Cambridge
 **August 1991 – January 1992**
     Research worker at the Institute of Psychiatry, London
 **August 1990 – July 1991**
-    House officer at the Royal London Hospital
+    House officer at the Princess Alexandra Hospital, Harlow and Royal London Hospital.
 
 ****************************
 Education and Qualifications
 ****************************
 
 **1994**
-    Membership of the Royal College of Physicians (UK)
+    *Membership of the Royal College of Physicians (UK)*. Physicians that want
+    to specialize in branches of general medicine such as neurology need to pass
+    this examination of academic and clinical competence in general medicine.
 **1987 – 1990**
-    Bachelor of Medicine and Surgery (MB BChir)
+    *Bachelor of Medicine and Surgery (MB BChir)*
 **1984 – 1987**
-    BA 2.i; Experimental Psychology, Cambridge University (UK)
+    *BA 2.i; Experimental Psychology, Cambridge University (UK)*
 
 ******
 Awards
@@ -82,17 +102,21 @@ Research Program
 ****************
 
 I work on developing, implementing and teaching methods of functional data
-analysis including FMRI and diffusion weighted imaging.  have a strong interest
-in open-source software development as the basis of methods research and
-understanding.  My primary focus is the development of a large international
-collaboration for new imaging software development (neuroimaging.scipy.org).
-Particular scientific interests include technical and theoretical problems in
-spatial normalization (inter-subject registration), region of interest analysis,
-and new methods of statistical analysis across subjects and tasks.
+analysis including positron emission tomography, functional MRI and diffusion
+weighted imaging.  I have a strong interest in open-source software development
+as the basis of methods research and understanding.  My primary focus is the
+development of a large international collaboration for new imaging software
+(http://nipy.org).  Particular scientific interests include technical and
+theoretical problems in spatial normalization (inter-subject registration),
+region of interest analysis, and new methods of statistical analysis across
+subjects and tasks.
 
 *********************
 Scientific activities
 *********************
+
+Journals
+========
 
 Reviewer for NeuroImage, Human Brain Mapping, Journal of Cognitive Neuroscience,
 Neuroscience Letters, Clinical Neurophysiology, Journal of Neuroimaging, the
@@ -100,9 +124,8 @@ Journal of Clinical and Experimental Neuropsychology, Frontiers in
 Neuroinformatics, Computing in Science and Engineering. Member of the editorial
 board of *Frontiers in Brain Imaging Methods*.
 
-
-Supervisor of two PhD students
-==============================
+Graduate supervision
+====================
 
 **2000 – 2004** *Katja Osswald*
     The role of SMA and basal ganglia in motor learning, mechanisms of apraxia
@@ -114,12 +137,19 @@ Supervisor of two PhD students
     assistant professor in the department of psychology in the university of
     Western Ontario.
 
-Advisor to two post-doctoral researchers
-========================================
+Undergraduate supervision
+=========================
+
+* 2007-2008 : supervised Cambridge medical students on neuroscience for Jesus
+  college.
+* 1994-1995 : supervised Oxford medical students on neuroanatomy
+
+Post-doctoral advisor
+=====================
 
 **2001 – 2002** *Alexandre Andrade*
-    working on surface-based FMRI statistics, coherence analysis.  Alexandre is
-    now professor in biophysics in Lisbon, Portugal
+    working on surface-based functional MRI statistics, coherence analysis.
+    Alexandre is now professor in biophysics in Lisbon, Portugal
 
 **2002 – 2006** *Ferath Kherif*
     working on multivariate statistics for clustering and diagnostics of
@@ -127,22 +157,82 @@ Advisor to two post-doctoral researchers
     Service of Neurology, Centre Hospitalier Universitaire Vaudois in Lausanne,
     Switzerland.
 
-Teaching and Tutorials
-======================
+Open-source software engineering
+================================
 
-Author of a large number of imaging tutorial pages (see
-http://imaging.mrc-cbu.cam.ac.uk/imaging).
+Contributor to `SPM` software (http://fil.ion.ucl.ac.uk/spm). `SPM` is the most
+widely-used software for the analysis of functional brain images such as those
+from functional MRI. It is mostly written in MATLAB with some C mex extensions.
 
-Have given many invited talks on various topics in neuroimaging methods in
-Cambridge, London, Oxford, York, Sheffield, Paris, Lyon, Marseille, Tokyo,
-Buenos Aires, Berkeley, Stanford.
+Main author and maintainer of MarsBaR region of interest analysis toolbox
+(http://marsbar.sourceforge.net) (MATLAB).  MarsBaR is a toolbox based on SPM
+and also written in MATLAB. Our abstract listed as the citation for MarsBaR has
+been cited over 1000 times (Brett et al 2002)
+
+Main author of Phiwave wavelet toolbox for SPM (http://phiwave.sourceforge.net)
+(MATLAB and C-mex extensions).  Phiwave implements the ideas described in Aston
+et al (2006) and Turkheimer et al (2000).
+
+Main author and maintainer of `nibabel` image input / output library
+(http://nipy/nibabel) (Python). Library for reading and writing
+medical image formats, including limited support for DICOM.  Recorded by Ohloh
+web analysis as >91K lines of code, and equivalent cost of $1.3M
+(https://www.ohloh.net/p/nibabel?ref=sample).
+
+Lead developer and maintainer of `nipy` functional imaging library
+(http://nipy/nipy) (Python and C extensions)
+(https://www.ohloh.net/p/nipy?ref=sample)
+
+Significant contributor to the `dipy` library for analysis of diffusion imaging
+(http://nipy.org/dipy) (Python).
+
+Contributor to `scipy` scientific algorithms library for Python
+(http://scipy.org; 221 commits); `numpy` array library for Python (48 commits);
+`statsmodels` statistical library for Python (33 commits) as well as `cython`
+C-optimization libary, `sympy` library for symbolic mathematics.
+
+Teaching, tutorials, invited talks
+==================================
+
+Software engineering
+--------------------
+
+Online tutorials include an informal explanation of the design of the `git`
+distributed version control system
+(http://matthew-brett.github.com/pydagogue/foundation.html) and tutorials on
+floating point implementation and mathematics
+(http://matthew-brett.github.com/pydagogue/floating_point.html,
+http://matthew-brett.github.com/pydagogue/floating_error.html), and a detailed
+exposition of the formula interface in the R statistical language using the code
+and mathematics in the IPython notebook
+http://nbviewer.ipython.org/urls/raw.github.com/fperez/nipy-notebooks/master/exploring_r_formula.ipynb)
+
+Imaging methods
+---------------
+
+Author of several widely-read imaging tutorial pages for neuroscientists (
+http://imaging.mrc-cbu.cam.ac.uk/imaging/AnalysisPrinciples) , covering the
+relationship of basic analysis of variance and regression to linear algebra
+(http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesStatistics), 3D convolution
+(http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesSmoothing), Random field
+theory for stastical inference with multiple comparisons
+(http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesRandomFields,
+http://imaging.mrc-cbu.cam.ac.uk/imaging/SmallVolumeCorrection).  These last two
+pages became the basis for a chapter on random field theory in a standard text
+on functional MRI analysis (Brett et al 2007).
+
+Invited talks on various topics in neuroimaging methods in Cambridge, London,
+Oxford, York, Sheffield, Paris, Lyon, Marseille, Tokyo, Buenos Aires, Berkeley,
+Stanford.
 
 * 2008 – : regular post-graduate teaching on the course on imaging organized by
-  Mark D'Esposito, and Neuroscience Seminar Series organized by Sonia Bishop
-* 2007 - invited speaker for 5th LATIN-AMERICAN CONGRESS OF CLINICAL NEUROPHYSIOLOGY
-* 2004, 2006, 2007: Invited speaker for Human Brain Mapping conference course on FMRI
-* 2005: (with Ansgar Furst) delivered 4 day SPM course in Oslo
+  Mark D'Esposito, and Neuroscience Seminar Series organized by Sonia Bishop. I
+  teach the principles of functional image analysis including within subject and
+  cross subject coregistration, diagnostics, statistical testing statistical
+  inference. I also teach basic diffusion imaging analysis.
+* 2007 - invited speaker for 5th Latin-American congress of clinical neurophysiology
+* 2004, 2006, 2007: Invited speaker for Human Brain Mapping conference course on functional MRI
+* 2005: (with Ansgar Furst) delivered 4 day SPM course in Oslo.
 * 2005: Faculty for Yale SPM course
-* 2006 – 2008: Neuroscience supervisor for Jesus College, Cambridge.
 * 2000 – 2003: Invited speaker at annual functional imaging courses held in Paris.
 * 2001: Delivered a three day neuroimaging / SPM course in University of Melbourne.
