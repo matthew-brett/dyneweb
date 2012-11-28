@@ -97,20 +97,6 @@ Awards
 **1984**
     Open Entrance Scholarship to Cambridge University
 
-****************
-Research Program
-****************
-
-I work on developing, implementing and teaching methods of functional data
-analysis including positron emission tomography, functional MRI and diffusion
-weighted imaging.  I have a strong interest in open-source software development
-as the basis of methods research and understanding.  My primary focus is the
-development of a large international collaboration for new imaging software
-(http://nipy.org).  Particular scientific interests include technical and
-theoretical problems in spatial normalization (inter-subject registration),
-region of interest analysis, and new methods of statistical analysis across
-subjects and tasks.
-
 *********************
 Scientific activities
 *********************
@@ -137,8 +123,8 @@ Graduate supervision
     assistant professor in the department of psychology in the university of
     Western Ontario.
 
-Member of the graduate committee for the MRC cognition and brain sciences unit
-2007-2008
+I was a member of the graduate committee for the MRC cognition and brain
+sciences unit 2007-2008
 
 Undergraduate supervision
 =========================
@@ -156,7 +142,7 @@ Post-doctoral scholars supervised
 
 **2002 – 2006** *Ferath Kherif*
     Working on multivariate statistics for clustering and diagnostics of
-    functional imaging data. Ferath is currently a prinicpal investigator at the
+    functional imaging data. Ferath is currently a principal investigator at the
     Service of Neurology, Centre Hospitalier Universitaire Vaudois in Lausanne,
     Switzerland.
 
@@ -178,7 +164,7 @@ Main author of Phiwave wavelet toolbox for SPM (http://phiwave.sourceforge.net)
 
 Main author and maintainer of `nibabel` image input / output library
 (http://nipy.org/nibabel) (Python). Library for reading and writing
-medical image formats, including limited support for DICOM.  Recorded by Ohloh
+medical image formats, including limited support for DICOM image format.  Recorded by Ohloh
 web analysis as >91K lines of code, and equivalent cost of $1.3M
 (https://www.ohloh.net/p/nibabel).
 
@@ -191,7 +177,7 @@ Significant contributor to the `dipy` library for analysis of diffusion imaging
 
 Contributor to `scipy` scientific algorithms library for Python
 (http://scipy.org); `numpy` array library for Python, `statsmodels` statistical
-library for Python, as well as `cython` C-optimization libary, `sympy` library
+library for Python, as well as `cython` C-optimization library, `sympy` library
 for symbolic mathematics.
 
 Teaching, tutorials, invited talks
@@ -218,7 +204,7 @@ http://imaging.mrc-cbu.cam.ac.uk/imaging/AnalysisPrinciples) , covering the
 relationship of basic analysis of variance and regression to linear algebra
 (http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesStatistics), 3D convolution
 (http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesSmoothing), Random field
-theory for stastical inference with multiple comparisons
+theory for statistical inference with multiple comparisons
 (http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesRandomFields,
 http://imaging.mrc-cbu.cam.ac.uk/imaging/SmallVolumeCorrection).  These last two
 pages became the basis for a chapter on random field theory in a standard text
