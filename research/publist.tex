@@ -1,6 +1,7 @@
 \documentclass{article}
 
-\usepackage[defernumbers=true,backend=biber, sorting=ydnt]{biblatex}
+\usepackage[utf8]{inputenc}
+\usepackage[defernumbers=true, bibstyle=authortitle, backend=biber, maxbibnames=10, sorting=ydnt]{biblatex}
 
 \usepackage{hyperref}
 
@@ -8,16 +9,19 @@
 
 \begin{document}
 
-Some text
-
 \nocite{*}
 
 \printbibheading[title={Publications}]
 
-\printbibliography[heading=subbibliography,keyword=computing,title={Computing: articles}]
+\printbibliography[heading=subbibliography,keyword=computing,keyword=article,title={Computing: articles}]
+\printbibliography[heading=subbibliography,keyword=computing,keyword=abstract,title={Computing: abstracts}]
 
-\printbibliography[heading=subbibliography,keyword=methods,title={Computing: articles}]
+\printbibliography[heading=subbibliography,keyword=methods,keyword=article,title={Imaging methods: articles}]
+\printbibliography[heading=subbibliography,keyword=methods,keyword=abstract,title={Imaging methods: abstracts}]
 
-\printbibliography[keyword=others,title={Everything Else}]
+\printbibliography[heading=subbibliography,keyword=movethink,keyword=article,title={Imaging of movement and thinking: articles}]
+\printbibliography[heading=subbibliography,keyword=movethink,keyword=abstract,title={Imaging of movement and thinking: abstracts}]
+
+\printbibliography[keyword=others,title={About other things}]
 
 \end{document}

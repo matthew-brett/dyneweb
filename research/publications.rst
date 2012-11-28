@@ -40,7 +40,7 @@ Articles and book chapters
     :style: mystyle
     :sort:
 
-    garyfallidis6quickbundles
+    Garyfallidis2012
     Poline2012
     Schwarzbauer2010
     Poldrack2008
@@ -67,7 +67,7 @@ Abstracts and conference papers
     :style: mystyle
     :sort:
 
-    Garyfallidis2010hbm
+    Garyfallidis2010fast
     Garyfallidis2010ismrm
     Brett2003er
     Fadili2002

@@ -139,3 +139,5 @@ upload: html
 	chmod -R uog+r $(SITE)
 	rsync -avrzH --copy-links --delete -e ssh  $(SITE)/ $(WWW)
 
+publist:
+	cd research && make publist
