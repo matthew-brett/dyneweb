@@ -197,7 +197,7 @@ htmlhelp_basename = 'Matthew Brett'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('research/cv_wrapper', 'mbcv.tex', u'Matthew Brett - curriculum vitae',
+  ('research/cv', 'mbcv.tex', u'Matthew Brett - curriculum vitae',
    '', 'howto'),
 ]
 
@@ -223,12 +223,15 @@ latex_documents = [
 
 # If false, no module index is generated.
 #latex_domain_indices = True
-PREAMBLE = ur'''%\documentclass{article}
+PREAMBLE = r"""%\documentclass{article}
 \setcounter{secnumdepth}{-1}
 \renewcommand\tableofcontents{}
 \renewcommand\release{}
 \renewcommand\author{}
-'''
+\usepackage{mathpazo}
+\usepackage[defernumbers=true, bibstyle=authoryear, backend=biber, maxbibnames=10, sorting=ydnt]{biblatex}
+\addbibresource{""" + os.path.abspath(os.path.join('research',
+                                                   'matthew_brett.bib}'))
 
 # f = open('graph/static/latexstyling.tex', 'r+')
 # PREAMBLE = f.read();

@@ -141,3 +141,6 @@ upload: html
 
 publist:
 	cd research && make publist
+
+cv: publist latexpdf
+	cp research/publist.pdf $(BUILDDIR)/latex

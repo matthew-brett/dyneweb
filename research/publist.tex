@@ -1,9 +1,19 @@
-\documentclass{article}
-
+\documentclass[letterpaper,11pt,openany]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[defernumbers=true, bibstyle=authoryear, backend=biber, maxbibnames=10, sorting=ydnt]{biblatex}
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo}
+
+\usepackage[defernumbers=true, bibstyle=authoryear, backend=biber, maxbibnames=10,
+    url=false, sorting=ydnt]{biblatex}
 
 \usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
 
 \addbibresource{matthew_brett.bib}
 
