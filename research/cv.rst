@@ -19,7 +19,7 @@ Personal Details
 
 **Work address**
      | Helen Wills neuroscience institute
-     | 120 Barker Hall
+     | 210 Barker Hall
      | University of California
      | Berkeley CA 94720
 
@@ -137,6 +137,9 @@ Graduate supervision
     assistant professor in the department of psychology in the university of
     Western Ontario.
 
+Member of the graduate committee for the MRC cognition and brain sciences unit
+2007-2008
+
 Undergraduate supervision
 =========================
 
@@ -144,8 +147,8 @@ Undergraduate supervision
   college.
 * 1994-1995 : supervised Oxford medical students on neuroanatomy
 
-Post-doctoral advisor
-=====================
+Post-doctoral scholars supervised
+=================================
 
 **2001 – 2002** *Alexandre Andrade*
     working on surface-based functional MRI statistics, coherence analysis.
@@ -187,9 +190,9 @@ Significant contributor to the `dipy` library for analysis of diffusion imaging
 (http://nipy.org/dipy) (Python).
 
 Contributor to `scipy` scientific algorithms library for Python
-(http://scipy.org; 221 commits); `numpy` array library for Python (48 commits);
-`statsmodels` statistical library for Python (33 commits) as well as `cython`
-C-optimization libary, `sympy` library for symbolic mathematics.
+(http://scipy.org); `numpy` array library for Python, `statsmodels` statistical
+library for Python, as well as `cython` C-optimization libary, `sympy` library
+for symbolic mathematics.
 
 Teaching, tutorials, invited talks
 ==================================
