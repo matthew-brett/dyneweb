@@ -163,20 +163,19 @@ web analysis as >91K lines of code, and equivalent cost of $1.3M
 (https://www.ohloh.net/p/nibabel).
 
 Lead developer and maintainer of `nipy` functional imaging library
-(http://nipy.org/nipy) (Python and C extensions)
-(https://www.ohloh.net/p/nipy).
+(http://nipy.org/nipy) (Python and C extensions).
 
 Significant contributor to the `dipy` library for analysis of diffusion imaging
 (http://nipy.org/dipy) (Python).
 
 All our `nipy.org`-based projects use standard open-source best practice for
-software development[#]_, including distributed version control based at
+software development [#]_, including distributed version control based at
 http://github.com, full web-based code review, automated unit tests, automated
 remote testing of all code commits using our own continuous integration server
-and http://travis-ci.com
+and publicly available testing servers for open-source projects.
 
-Other software projects
------------------------
+Other scientific software projects
+----------------------------------
 
 Contributor to the `SPM` software package (http://fil.ion.ucl.ac.uk/spm). `SPM`
 is the most widely-used software for the analysis of functional brain images
@@ -222,7 +221,7 @@ including:
 
 * The relationship of basic analysis of variance and regression to linear
   algebra: http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesStatistics
-* 3D convolution: http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesSmoothing
+* 1D and 2D convolution: http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesSmoothing
 * Random field theory for statistical inference with multiple comparisons:
   http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesRandomFields,
   http://imaging.mrc-cbu.cam.ac.uk/imaging/SmallVolumeCorrection.  These last
