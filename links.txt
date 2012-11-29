@@ -112,3 +112,6 @@
 .. Misc code
 .. _ImageMagick: http://www.imagemagick.org
 
+.. |emdash| unicode:: U+02014
+
+.. vim: ft=rst

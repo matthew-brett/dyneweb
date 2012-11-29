@@ -149,18 +149,12 @@ Post-doctoral scholars supervised
 Open-source software engineering
 ================================
 
-Contributor to `SPM` software (http://fil.ion.ucl.ac.uk/spm). `SPM` is the most
-widely-used software for the analysis of functional brain images such as those
-from functional MRI. It is mostly written in MATLAB with some C mex extensions.
+Neuroimaging in Python projects
+-------------------------------
 
-Main author and maintainer of MarsBaR region of interest analysis toolbox
-(http://marsbar.sourceforge.net) (MATLAB).  MarsBaR is a toolbox based on SPM
-and also written in MATLAB. Our abstract listed as the citation for MarsBaR has
-been cited over 1000 times (Brett *et al* 2002).
-
-Main author of Phiwave wavelet toolbox for SPM (http://phiwave.sourceforge.net)
-(MATLAB and C-mex extensions).  Phiwave implements the ideas described in Aston
-*et al* (2006) and Turkheimer *et al* (2000).
+My main software work since 2005 has been setting up and maintaining a
+international collaboration to make fully open tools for neuroimaging data
+analysis in Python (http://nipy.org).
 
 Main author and maintainer of `nibabel` image input / output library
 (http://nipy.org/nibabel) (Python). Library for reading and writing
@@ -174,6 +168,29 @@ Lead developer and maintainer of `nipy` functional imaging library
 
 Significant contributor to the `dipy` library for analysis of diffusion imaging
 (http://nipy.org/dipy) (Python).
+
+All our `nipy.org`-based projects use standard open-source best practice for
+software development[#]_, including distributed version control based at
+http://github.com, full web-based code review, automated unit tests, automated
+remote testing of all code commits using our own continuous integration server
+and http://travis-ci.com
+
+Other software projects
+-----------------------
+
+Contributor to the `SPM` software package (http://fil.ion.ucl.ac.uk/spm). `SPM`
+is the most widely-used software for the analysis of functional brain images
+such as those from functional MRI.  It is mostly written in MATLAB with some C
+mex extensions.
+
+Main author and maintainer of MarsBaR region of interest analysis toolbox
+(http://marsbar.sourceforge.net) (MATLAB).  MarsBaR is a toolbox based on SPM
+and also written in MATLAB. Our abstract listed as the citation for MarsBaR has
+been cited over 1000 times (Brett *et al* 2002).
+
+Main author of Phiwave wavelet toolbox for SPM (http://phiwave.sourceforge.net)
+(MATLAB and C-mex extensions).  Phiwave implements the ideas described in Aston
+*et al* (2006) and Turkheimer *et al* (2000).
 
 Contributor to `scipy` scientific algorithms library for Python
 (http://scipy.org); `numpy` array library for Python, `statsmodels` statistical
@@ -210,7 +227,7 @@ including:
   http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesRandomFields,
   http://imaging.mrc-cbu.cam.ac.uk/imaging/SmallVolumeCorrection.  These last
   two pages became the basis for a chapter on random field theory in a standard
-  text on functional MRI analysis (Brett et al 2007).
+  text on functional MRI analysis (Brett *et al* 2007).
 
 Invited talks on neuroimaging methods in Cambridge, London, Oxford, York,
 Sheffield, Paris, Lyon, Marseille, Tokyo, Buenos Aires, Berkeley, Stanford,
@@ -222,11 +239,30 @@ including:
 
 Teaching of functional imaging methods include:
 
-* 2008 – : Regular post-graduate teaching on the course on imaging organized by
-  Mark D'Esposito, and Neuroscience Seminar Series organized by Sonia Bishop. I
-  teach the principles of functional image analysis including within subject and
-  cross subject coregistration, diagnostics, statistical testing statistical
-  inference. I also teach basic diffusion imaging analysis.
-* 2005: (with Ansgar Furst) delivered 4 day SPM course in Oslo.
-* 2005: Faculty for Yale SPM course.
-* 2001: Delivered a three day neuroimaging / SPM course in University of Melbourne.
+* 2008 – present, Berkeley: *Regular post-graduate teaching for "Functional MRI
+  Methodology Seminar" series and "Neuroimaging seminar series"*. My topics
+  include: motion correction; cross-modality registration; registration between
+  subjects; modeling of evoked haemodynamic signal; analysis of variance and
+  multiple regression using the General Linear Model; statistical inference
+  using fixed and random effects; multiple comparison correction using Random
+  field theory, False Discovery Rate and permutation testing; diffusion imaging
+  principles and analysis.
+* 1999 - 2003; 2005 - 2008, Cambridge: *Regular seminars on image processing and
+  statistics in functional MRI* covering motion correction; within and cross
+  modality registration; cross subject brain registration; statistical inference
+  and multiple comparison correction using Random field theory, False Discovery
+  Rate and permutation testing.
+* 2005, Oslo: *4 day course on functional MRI analysis with SPM* (with
+  Ansgar Furst) covering motion correction; cross-modality registration;
+  registration between subjects; modeling of evoked haemodynamic signal;
+  analysis of variance and multiple regression using the General Linear Model;
+  statistical inference using fixed and random effects; multiple comparison
+  correction using Random field theory, False Discovery Rate and permutation
+  testing.
+* 2005, Yale: *Faculty for course on anatomical and functional MRI analysis using SPM*
+* 2001, Melbourne, Australia: *Delivered 9 hours of lectures and 5 hours of
+  practical sessions on functional MRI analysis using SPM* covering similar
+  topics to Oslo course above.
+
+.. [#] D. A. Aruliah *et al* (2012) "Best Practices for Scientific Computing".
+   http://arxiv.org/abs/1210.0530
