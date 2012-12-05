@@ -1,13 +1,13 @@
-\documentclass[letterpaper,11pt,openany]{article}
+\documentclass[letterpaper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{mathpazo}
 
-\usepackage[defernumbers=true, bibstyle=authoryear, backend=biber, maxbibnames=10,
+\usepackage[bibstyle=authoryear, backend=biber, maxbibnames=10,
     url=false, sorting=ydnt]{biblatex}
 
 \usepackage{hyperref}
-\hypersetup{
+\hypersetup{ % turn off the boxes round URLS
     colorlinks,
     citecolor=black,
     filecolor=black,
@@ -21,7 +21,7 @@
 
 \nocite{*}
 
-\printbibheading[title={Publications}]
+\printbibheading[title={Matthew Brett -- publications}]
 
 \printbibliography[heading=subbibliography,keyword=computing,keyword=article,title={Computing: articles}]
 \printbibliography[heading=subbibliography,keyword=computing,keyword=abstract,title={Computing: abstracts}]
