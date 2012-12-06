@@ -7,3 +7,6 @@ _build
 *_thumb*.jpg
 
 *.pyc
+
+research/publist*
+!research/publist.tex

@@ -135,12 +135,11 @@ doctest:
 	@echo "Testing of doctests in the sources finished, look at the " \
 	      "results in $(BUILDDIR)/doctest/output.txt."
 
-upload: html
+upload: html cv
+	cp $(BUILDDIR)/latex/*.pdf $(SITE)/research
 	chmod -R uog+r $(SITE)
 	rsync -avrzH --copy-links --delete -e ssh  $(SITE)/ $(WWW)
 
-publist:
+cv: latexpdf
 	cd research && make publist
-
-cv: publist latexpdf
 	cp research/publist.pdf $(BUILDDIR)/latex
