@@ -197,7 +197,7 @@ htmlhelp_basename = 'Matthew Brett'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('research/cv', 'mbcv.tex', u'Matthew Brett - curriculum vitae',
+  ('research/cv', 'cv.tex', u'Matthew Brett - curriculum vitae',
    '', 'howto'),
 ]
 

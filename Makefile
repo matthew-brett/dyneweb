@@ -136,7 +136,8 @@ doctest:
 	      "results in $(BUILDDIR)/doctest/output.txt."
 
 upload: html cv
-	cp $(BUILDDIR)/latex/*.pdf $(SITE)/research
+	cp $(BUILDDIR)/latex/cv.pdf $(SITE)/research/mbrett_cv.pdf
+	cp $(BUILDDIR)/latex/publist.pdf $(SITE)/research/mbrett_publist.pdf
 	chmod -R uog+r $(SITE)
 	rsync -avrzH --copy-links --delete -e ssh  $(SITE)/ $(WWW)
 
