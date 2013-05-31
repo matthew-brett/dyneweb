@@ -88,7 +88,7 @@ Articles
     :style: mystyle
     :sort:
 
-    Rodriguez2012absense
+    Rodriguez2012absence
     Grahn2009
     Grahn2007
     Spencer2007
