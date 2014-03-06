@@ -16,6 +16,10 @@
 }
 
 \addbibresource{matthew_brett.bib}
+\defbibfilter{methodsPlus}{%
+    keyword=computing or keyword=methods
+}
+\AtEveryBibitem{\clearlist{language}} % clears language
 
 \begin{document}
 
@@ -23,15 +27,29 @@
 
 \printbibheading[title={Matthew Brett -- publications}]
 
-\printbibliography[heading=subbibliography,keyword=computing,keyword=article,title={Computing: articles}]
-\printbibliography[heading=subbibliography,keyword=computing,keyword=abstract,title={Computing: abstracts}]
-
-\printbibliography[heading=subbibliography,keyword=methods,keyword=article,title={Imaging methods: articles}]
-\printbibliography[heading=subbibliography,keyword=methods,keyword=abstract,title={Imaging methods: abstracts}]
-
-\printbibliography[heading=subbibliography,keyword=movethink,keyword=article,title={Imaging of movement and thinking: articles}]
-\printbibliography[heading=subbibliography,keyword=movethink,keyword=abstract,title={Imaging of movement and thinking: abstracts}]
-
-\printbibliography[keyword=others,title={About other things}]
+\printbibliography[heading=subbibliography,
+    filter=methodsPlus,
+    keyword=article,
+    notkeyword=omit,
+    title={Imaging methods: articles and book chapters}]
+\printbibliography[heading=subbibliography,
+    filter=methodsPlus,
+    keyword=abstract,
+    notkeyword=omit,
+    title={Imaging methods: abstracts}]
+\printbibliography[heading=subbibliography,
+    keyword=movethink,
+    keyword=article,
+    notkeyword=omit,
+    title={Imaging of movement and thinking: articles}]
+\printbibliography[heading=subbibliography,
+    keyword=movethink,
+    keyword=abstract,
+    notkeyword=omit,
+    title={Imaging of movement and thinking: abstracts}]
+\printbibliography[heading=subbibliography,
+    keyword=others,
+    notkeyword=omit,
+    title={About other things}]
 
 \end{document}
