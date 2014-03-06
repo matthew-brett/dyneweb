@@ -1,3 +1,8 @@
+% The skeleton for producing my publication list in sections Uses biblatex and
+% biber to customized the bibliography output. Sections defined by a
+% combination of keyword= and custom filtering. See
+% http://www.ctan.org/pkg/biblatex
+
 \documentclass[letterpaper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -25,7 +30,7 @@
 
 \nocite{*}
 
-\printbibheading[title={Matthew Brett -- publications}]
+\printbibheading[title={Matthew Brett -- research products}]
 
 \printbibliography[heading=subbibliography,
     filter=methodsPlus,
@@ -51,5 +56,9 @@
     keyword=others,
     notkeyword=omit,
     title={About other things}]
+\printbibliography[heading=subbibliography,
+    keyword=software,
+    notkeyword=omit,
+    title={Software}]
 
 \end{document}
