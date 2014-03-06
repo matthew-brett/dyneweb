@@ -71,7 +71,7 @@
   keywords = {Adolescent; Adult; Anxiety; Attention, physiology; Brain Mapping;
 	Female; Gyrus Cinguli, physiology; Humans; Image Processing, Computer-Assisted;
 	Magnetic Resonance Imaging; Male; Pattern Recognition, Visual; Photic
-	Stimulation; Prefrontal Cortex, physiology, article, movethink},
+	Stimulation; Prefrontal Cortex, physiology, article, movethink, omit},
   language = {eng},
   medline-pst = {ppublish},
   owner = {mb312},
@@ -294,27 +294,27 @@
     local-poster={abstracts/er/er.pdf}
 }
 
-@INBOOK{Brett2007,
-  chapter = {{Parametric procedures}},
+@incollection{Brett2007,
+  title = {{Parametric procedures}},
   pages = {223 - 231},
-  title = {{Statistical Parametric Mapping: The Analysis of Functional Brain
+  booktitle = {{Statistical Parametric Mapping: The Analysis of Functional Brain
 	Images}},
   publisher = {Elsevier},
   year = {2007},
   editor = {Karl Friston and John Asburner and Stefan Kiebel and Thomas Nichols
 	and William Penny},
   author = {Matthew Brett and William Penny and Stefan Kiebel},
-  keywords = {article, methods},
+  keywords = {article, methods, omit},
 }
 
-@INBOOK{Brett2003,
+@incollection{Brett2003,
   editor = {Richard S.J. Frackowiak and John T. Ashburner and William D. Penny
       and Semir Zeki},
-  Title = {Human Brain Function, Second Edition},
+  booktitle = {Human Brain Function, Second Edition},
   Publisher = {Academic Press},
   Year = {2004},
   ISBN = {0122648412},
-  chapter={Introduction to random field theory},
+  title={Introduction to random field theory},
   author={Matthew Brett and William D. Penny and Stefan Kiebel},
   pages={867-880},
   keywords = {article, methods},
@@ -355,7 +355,7 @@
 	imaging; Magnetic Resonance Imaging; Meninges, blood supply/pathology;
 	Phenotype; Point Mutation; Polymorphism, Genetic; Prealbumin, genetics;
 	Proline; Sequence Analysis, DNA; Serum Amyloid P-Component, metabolism/pharmacokinetics;
-	Spleen, radionuclide imaging, article, methods},
+	Spleen, radionuclide imaging, article, others},
   language = {eng},
   local-content = {articles/ttr.pdf},
   medline-pst = {ppublish},
@@ -433,7 +433,7 @@
   doi = {10.1016/j.neuroimage.2007.04.065},
   keywords = {Brain Diseases, diagnosis; Brain Mapping, methods; Humans; Image Enhancement,
 	methods; Image Interpretation, Computer-Assisted, methods; Magnetic
-	Resonance Imaging, methods; Subtraction Technique, article, methods},
+	Resonance Imaging, methods; Subtraction Technique, article, methods, omit},
   language = {eng},
   medline-pst = {ppublish},
   owner = {mb312},
@@ -589,6 +589,20 @@
   volume={6},
   pages={175},
   publisher={Frontiers},
+  keywords = {article, methods},
+}
+
+@article{garyfallidis2014dipy,
+  title={Dipy, a library for the analysis of diffusion MRI data},
+  author={Garyfallidis, Eleftherios and Brett, Matthew and Amirbekian, Bago
+      and Rokem, Ariel and van der Walt, Stéfan and Descoteaux, Maxime and
+          Nimmo-Smith, Ian},
+  journal={Frontiers in Neuroinformatics},
+  volume={8},
+  number={8},
+  year={2014},
+  doi={10.3389/fninf.2014.00008},
+  url = {http://dx.doi.org/10.3389/fninf.2014.00008},
   keywords = {article, methods},
 }
 
@@ -1070,6 +1084,7 @@
   year={2012},
   doi = {10.1016/j.neuroimage.2012.01.133},
   local-content = {articles/does_glm_love.pdf},
+  keywords = {article, methods}
 }
 
 @article{Rodriguez2012absence,
@@ -1155,7 +1170,7 @@
 	Processing, Computer-Assisted, instrumentation; Magnetic Resonance
 	Imaging, instrumentation; Mathematical Computing; Mind-Body Relations
 	(Metaphysics), physiology; Radiosurgery, instrumentation; Sensitivity
-	and Specificity; Surgery, Computer-Assisted, instrumentation, article, movethink},
+	and Specificity; Surgery, Computer-Assisted, instrumentation, article, methods},
   language = {eng},
   medline-pst = {ppublish},
   owner = {mb312},
@@ -1275,15 +1290,15 @@
   remote-content={http://nipy.sourceforge.net/nipy/stable/references/brainpy_abstract.html}
 }
 
-@INBOOK{Turkheimer2001,
-  chapter = {Statistical Estimation of {PET} Images in the Wavelet Domain},
+@incollection{Turkheimer2001,
+  title = {Statistical Estimation of {PET} Images in the Wavelet Domain},
   pages = {29 - 33},
-  title = {Physiological imaging of the brain with PET},
+  booktitle = {Physiological imaging of the brain with PET},
   publisher = {Academic Press},
   year = {2001},
   editor = {Gjedde, A.},
-  author = {Federico Turkheimer and Matthew Brett and Visvikis, Dimitris. and Cunningham,
-	Vincent J.},
+  author = {Federico Turkheimer and Matthew Brett and Visvikis, Dimitris and
+      Cunningham, Vincent J.},
   keywords = {article, methods},
   isbn = {0122857518},
 }
