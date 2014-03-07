@@ -30,10 +30,9 @@ Research Positions
 **August 2008 - present**
     *Associate researcher at the Brain Imaging Center, University of California,
     Berkeley*. Consulting on design and analysis of functional brain imaging
-    data; post-graduate teaching on functional brain image analysis and on
-    diffusion image analysis; development of `nipy` open source software
-    projects (see below); contributing to development of new algorithms for
-    analysis of diffusion imaging.
+    data; post-graduate teaching on functional imaging ; development of `nipy`
+    open source software projects (see below); contributing to development of
+    new algorithms for analysis of diffusion imaging.
 **October 2005 – July 2008**
     *Senior investigator scientist at the MRC Cognition & Brain Sciences Unit,
     Cambridge*. Working with Ian Nimmo-Smith and other members of the methods
@@ -65,7 +64,8 @@ Medical Positions
 **June 1995 – January 1996**
     Registrar in neurology at the Radcliffe Infirmary, Oxford
 **August 1994 – April 1995**
-    Senior house officer in neurology at The National Hospital for Neurology, Queen square, London
+    Senior house officer in neurology at The National Hospital for Neurology,
+    Queen square, London
 **August 1992 – July 1994**
     Senior house officer medical rotation at St Bartholomew’s Hospital, London
 **February 1992 – July 1992**
@@ -107,8 +107,9 @@ Journals
 Reviewer for NeuroImage, Human Brain Mapping, Journal of Cognitive Neuroscience,
 Neuroscience Letters, Clinical Neurophysiology, Journal of Neuroimaging, the
 Journal of Clinical and Experimental Neuropsychology, Frontiers in
-Neuroinformatics, Computing in Science and Engineering. Member of the editorial
-board of *Frontiers in Brain Imaging Methods*.
+Neuroinformatics, Computing in Science and Engineering, Frontiers in Brain
+Imaging Methods, Computers in Science and Engineering, Public Library of Science
+One. Member of the editorial board of *Frontiers in Brain Imaging Methods*.
 
 Graduate supervision
 ====================
@@ -116,6 +117,7 @@ Graduate supervision
 **2000 – 2004** *Katja Osswald*
     The role of SMA and basal ganglia in motor learning, mechanisms of apraxia
     and methods of functional MRI analysis (submitted May 2004).  Katja is now a
+    teaching fellow at the department of psychology in York and a practicing
     clinical psychologist.
 
 **2001 – 2004** *Jessica Grahn*
@@ -138,13 +140,13 @@ Post-doctoral scholars supervised
 
 **2001 – 2002** *Alexandre Andrade*
     Working on surface-based functional MRI statistics, coherence analysis.
-    Alexandre is now professor in biophysics in Lisbon, Portugal
+    Alexandre is now a professor Institute of Biophysics and Biomedical
+    Engineering, Lisbon, Portugal.
 
 **2002 – 2006** *Ferath Kherif*
     Working on multivariate statistics for clustering and diagnostics of
     functional imaging data. Ferath is currently a principal investigator at the
-    Service of Neurology, Centre Hospitalier Universitaire Vaudois in Lausanne,
-    Switzerland.
+    Laboratory of Research in Neuroimaging, Lausanne, Switzerland.
 
 Open-source software engineering
 ================================
