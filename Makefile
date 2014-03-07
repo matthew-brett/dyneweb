@@ -142,6 +142,10 @@ upload: html cv
 	chmod -R uog+r $(SITE)
 	rsync -avrzH --copy-links --delete -e ssh  $(SITE)/ $(WWW)
 
-cv: latexpdf
+checkcv:
+	python tools/check_bib.py research/matthew_brett.bib
+
+cv: checkcv latexpdf
+	-rm -rf research/publist.{aux,bbl,bcf,blg,log,out,pdf,run.xml}
 	cd research && make publist
 	cp research/publist.pdf $(BUILDDIR)/latex
