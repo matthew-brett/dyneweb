@@ -30,7 +30,7 @@
 
 \nocite{*}
 
-\printbibheading[title={Matthew Brett -- research products}]
+\printbibheading[title={Matthew Brett -- publications}]
 
 \printbibliography[heading=subbibliography,
     filter=methodsPlus,
@@ -56,9 +56,25 @@
     keyword=others,
     notkeyword=omit,
     title={About other things}]
+
+\printbibheading[title={Selected software}]
+
 \printbibliography[heading=subbibliography,
     keyword=software,
+    keyword=maintainer,
     notkeyword=omit,
-    title={Software}]
+    title={Software - lead developer}]
+\printbibliography[heading=subbibliography,
+    keyword=software,
+    keyword=developer,
+    notkeyword=omit,
+    title={Software - core developer}]
+
+\printbibheading[title={Selected online tutorials}]
+
+\printbibliography[heading=subbibliography,
+    heading=none,
+    keyword=online,
+    notkeyword=omit]
 
 \end{document}
