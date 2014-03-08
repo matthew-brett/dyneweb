@@ -23,6 +23,130 @@ Personal Details
      | University of California
      | Berkeley CA 94720
 
+*********************
+Research and teaching
+*********************
+
+There are five threads to my work:
+
+#. Training in neurology to registrar level
+#. Research on brain basis of movement planning and performance
+#. Research, teaching and consulting on brain imaging methods
+#. Development of open-source software for imaging methods
+#. Teaching of computational process and ideas
+
+Training in neurology
+=====================
+
+I trained in neurology at Cambridge, St Bartholomew's hospital, The National
+Hospital for Neurology, Oxford and the Hammersmith Hospital. I had a National
+Training Number to continue training through to consultant level but gave this
+up to continue research.
+
+Research on movement
+====================
+
+My first research post was on PET imaging of apraxia and movement selection
+supervised by David Brooks and John Stein. I continued research on movement in
+the MRC Cognition and Brain Science Unit (CBSU) with my two students Katja
+Osswald and Jessica Grahn.  Jessica's work was particularly successful with a
+well-cited and clean paper in the Journal of Cognitive Neuroscience showing that
+beat perception causes striking bilateral activation of the basal ganglia.
+
+Research and teaching on imaging methods
+========================================
+
+As part of my PET research I taught myself programming in MATLAB, the SPM
+software package and the principles of imaging methods including statistics.  I
+began to teach, eventually resulting in a series of popular tutorials on
+imaging statistics and multiple comparison correction (see *online tutorials* in
+publication list). The tutorial on multiple comparisons became a book chapter in
+a standard reference on functional imaging analysis (Brett et al 2007).  I
+developed an interest in methodology research, showing, for example, that
+activation PET imaging suffers from some specific movement artifacts that can
+easily be mistaken for frontal lobe activation (Brett et al 1999).
+
+My experience of programming allowed me to develop new methods.  I co-wrote a
+paper with one of the main SPM authors on methods of warping damaged brains to
+standard brain templates (Brett et al 2001) (418 citations).  In 2001 I gave my
+first full neuroimaging course, giving nine hours of lectures and 5 hours of
+practical teaching. With Ingrid Johnsrude and Adrian Owen, I wrote a review on
+ways of identifying location of brain activation, cited 770 times. Later I
+published a paper with Tom Nichols, Jesper Anderson and others on an incorrect
+statistical procedure for so-called "conjunction analysis" in SPM (Nichols et al
+2005) (859 citations). I contributed to the standard reference paper on
+reporting guidelines for functional MRI (Poldrack et al 2008) and co-authored a
+paper with Rebecca Saxe and Nancy Kanwisher on the region of interest technique
+for analysing FMRI data (Saxe et al 2006).
+
+With Eleftherios Garyfallidis and Ian Nimmo-Smith, I became increasingly
+interested in diffusion imaging analysis (Garyfallidis et al 2010, 2012, 2014)
+
+With Jean-Baptiste Poline, I wrote a review and tutorial paper on the general
+linear model in functional MRI for a recent special issue of NeuroImage (Poline
+and Brett 2012).
+
+Development of open-source software for imaging methods
+=======================================================
+
+When I was working at the MRC CBSU, I went to a job talk by Russell Epstein.  I
+was struck by the simplicity and elegance of the work of Russell had done with
+Nancy Kanwisher.  At the time it was not possible use standard SPM software to
+do the analyses that Russell wanted to do; this barrier was enough to make it a
+lot less likely that other researchers would use these methods.  With colleagues
+in France, I wrote the MarsBaR region of interest toolbox that allows
+Kanwisher-type analyses using SPM.  Since then I have updated and released
+MarsBaR at regular intervals. The abstract for MarsBaR has been cited nearly
+1500 times.
+
+I worked on wavelet analysis methods with Federico Turkheimer and John Aston.
+This work introduced me to David Donoho's writing and the concept of
+reproducible science.  We used our own Phiwave toolbox for an analysis for a
+competition at the Human Brain Mapping Conference (Aston et al 2006).  I
+published all the scripts for the analysis to make it reproducible; see
+http://phiwave.sourceforge.net/fiac/index.html.
+
+While on a two-year visit to Berkeley from 2003 I started working with
+programmers and scientists interested in open-source software development.  With
+Jarrod Millman, I initiated a proposal to develop an international collaboration
+with statisticians, signal processing and image processing experts to write a
+new entirely open software library for functional imaging analysis. We chose the
+Python programming language for this effort because of its famously clean
+syntax, high quality scientific libraries, and fully open-source distribution.
+The NIH eventually funded this proposal as a 3-year R01 grant from 2007-2010.
+The program became the Nipy project |--| http://nipy.org.
+
+The collaborations from this work gave me much greater experience of the working
+practice of successful scientific programmers, and allowed me to see and use the
+many tools that are developing for improving scientific code and sharing
+analyses. For example, all our `nipy.org`-based projects use standard
+open-source best practice for software development, including distributed
+version control based at http://github.com, full web-based code review,
+automated unit tests, automated remote testing of all code commits using our own
+continuous integration server and publicly available testing servers for
+open-source projects.
+
+The Nipy community now consists of six projects. I am the lead developer for two
+of these, and a core developer of another (see *software* section in
+publications).
+
+In part because of this work, I have become increasingly involved in projects to
+teach computing methods to students and researchers. I have taught and assisted
+at "Software Carpentry" workshops teaching basic techniques for using scientific
+code.  I have been lucky to have been very close to the development of the
+IPython notebook, an interactive web-based application that allows sharing of
+code and data for describing analyses and teaching. This technology has allowed
+me to go back to previous tutorials in which I had tried to mix code and
+explanation, and rewrite them as I had imagined them, with full interactivity,
+simple code and high-quality mathematical markup (see online *tutorial* section
+of publications).  The IPython notebook has been picked up very rapidly and has
+already been used in a number of publications in genetics and neuroimaging to
+give full reproducible account of ideas and calculations.
+
+With Jean-Baptiste Poline and Paul Ivanov, we have used this technology to give
+a course on practical neuroimaging that combines teaching of the concepts with
+code implementing and illustrating these concepts (http://practical-neuroimaging.github.io).
+
 ******************
 Research Positions
 ******************
@@ -32,7 +156,8 @@ Research Positions
     Berkeley*. Consulting on design and analysis of functional brain imaging
     data; post-graduate teaching on functional imaging ; development of `nipy`
     open source software projects (see below); contributing to development of
-    new algorithms for analysis of diffusion imaging.
+    new algorithms for analysis of diffusion imaging; delivering course teaching
+    neuroimaging analysis through examples of running code.
 **October 2005 – July 2008**
     *Senior investigator scientist at the MRC Cognition & Brain Sciences Unit,
     Cambridge*. Working with Ian Nimmo-Smith and other members of the methods
@@ -56,7 +181,6 @@ Research Positions
     from positron emission tomography to study the role of motor areas in
     response design and selection.
 
-
 *****************
 Medical Positions
 *****************
@@ -73,7 +197,8 @@ Medical Positions
 **August 1991 – January 1992**
     Research worker at the Institute of Psychiatry, London
 **August 1990 – July 1991**
-    House officer at the Princess Alexandra Hospital, Harlow and Royal London Hospital.
+    House officer at the Princess Alexandra Hospital, Harlow and Royal London
+    Hospital.
 
 ****************************
 Education and Qualifications
@@ -96,10 +221,6 @@ Awards
     British Brain and Spine Foundation 3 year research training fellowship
 **1984**
     Open Entrance Scholarship to Cambridge University
-
-*********************
-Scientific activities
-*********************
 
 Journals
 ========
@@ -148,98 +269,33 @@ Post-doctoral scholars supervised
     functional imaging data. Ferath is currently a principal investigator at the
     Laboratory of Research in Neuroimaging, Lausanne, Switzerland.
 
-Open-source software engineering
-================================
-
-Neuroimaging in Python projects
--------------------------------
-
-My main software work since 2005 has been setting up and maintaining a
-international collaboration to make fully open tools for neuroimaging data
-analysis in Python (http://nipy.org).
-
-Main author and maintainer of `nibabel` image input / output library
-(http://nipy.org/nibabel) (Python). Library for reading and writing
-medical image formats, including limited support for DICOM image format.  Recorded by Ohloh
-web analysis as >91K lines of code, and equivalent cost of $1.3M
-(https://www.ohloh.net/p/nibabel).
-
-Lead developer and maintainer of `nipy` functional imaging library
-(http://nipy.org/nipy) (Python and C extensions).
-
-Significant contributor to the `dipy` library for analysis of diffusion imaging
-(http://nipy.org/dipy) (Python).
-
-All our `nipy.org`-based projects use standard open-source best practice for
-software development [#]_, including distributed version control based at
-http://github.com, full web-based code review, automated unit tests, automated
-remote testing of all code commits using our own continuous integration server
-and publicly available testing servers for open-source projects.
-
-Other scientific software projects
-----------------------------------
-
-Contributor to the `SPM` software package (http://fil.ion.ucl.ac.uk/spm). `SPM`
-is the most widely-used software for the analysis of functional brain images
-such as those from functional MRI.  It is mostly written in MATLAB with some C
-mex extensions.
-
-Main author and maintainer of MarsBaR region of interest analysis toolbox
-(http://marsbar.sourceforge.net) (MATLAB).  MarsBaR is a toolbox based on SPM
-and also written in MATLAB. Our abstract listed as the citation for MarsBaR has
-been cited over 1000 times (Brett *et al* 2002).
-
-Main author of Phiwave wavelet toolbox for SPM (http://phiwave.sourceforge.net)
-(MATLAB and C-mex extensions).  Phiwave implements the ideas described in Aston
-*et al* (2006) and Turkheimer *et al* (2000).
-
-Contributor to `scipy` scientific algorithms library for Python
-(http://scipy.org); `numpy` array library for Python, `statsmodels` statistical
-library for Python, as well as `cython` C-optimization library, `sympy` library
-for symbolic mathematics.
-
-Teaching, tutorials, invited talks
-==================================
-
-Software engineering
---------------------
-
-Online tutorials include:
-
-* an informal explanation of the design of the `git` distributed version control
-  system : (http://matthew-brett.github.com/pydagogue/foundation.html
-* floating point representation :
-  http://matthew-brett.github.com/pydagogue/floating_point.html
-* floating point error: http://matthew-brett.github.com/pydagogue/floating_error.html
-* the formula interface to statistical models in the R language using code and
-  mathematics in the IPython notebook
-  http://nbviewer.ipython.org/urls/raw.github.com/fperez/nipy-notebooks/master/exploring_r_formula.ipynb)
-
-Imaging methods
----------------
-
-Author of several widely-read imaging tutorial pages for neuroscientists,
-including:
-
-* The relationship of basic analysis of variance and regression to linear
-  algebra: http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesStatistics
-* 1D and 2D convolution: http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesSmoothing
-* Random field theory for statistical inference with multiple comparisons:
-  http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesRandomFields,
-  http://imaging.mrc-cbu.cam.ac.uk/imaging/SmallVolumeCorrection.  These last
-  two pages became the basis for a chapter on random field theory in a standard
-  text on functional MRI analysis (Brett *et al* 2007).
+Invited talks
+=============
 
 Invited talks on neuroimaging methods in Cambridge, London, Oxford, York,
 Sheffield, Paris, Lyon, Marseille, Tokyo, Buenos Aires, Berkeley, Stanford,
-including:
+Havana; including:
 
-* 2007 - invited speaker for 5th Latin-American congress of clinical neurophysiology
-* 2004, 2006, 2007: Invited speaker for Human Brain Mapping conference course on functional MRI
-* 2000 – 2003: Invited speaker at annual functional imaging courses held in Paris.
+* 2013 |--| invited speaker for International Neuroinformatics Coordinating
+  Facility workshop in Havana.
+* 2009 |--| presentation on "Neuroimaging in Python" to Neuroinformatics
+  session of Human Brain Mapping conference
+* 2009 |--| invited speaker for FMRIB Software Library course at Human Brain
+  Mapping conference, San Francisco
+* 2007 - invited speaker for 5th Latin-American congress of clinical
+  neurophysiology, Havana.
+* 2004, 2006, 2007: Invited speaker for Human Brain Mapping conference course on
+  functional MRI
+* 2000 – 2003: Invited speaker at annual functional imaging courses held in
+  Paris.
 
-Teaching of functional imaging methods include:
+Courses taught
+==============
 
+* February |--| October 2013, Berkeley; with Jean-Baptiste Poline and Paul
+  Ivanov - a course on practical neuroimaging - teaching the ideas of analysis
+  with code, and the practice of scientific coding :
+  http://practical-neuroimaging.github.io/
 * 2008 – present, Berkeley: *Regular post-graduate teaching for "Functional MRI
   Methodology Seminar" series and "Neuroimaging seminar series"*. My topics
   include: motion correction; cross-modality registration; registration between
@@ -260,10 +316,12 @@ Teaching of functional imaging methods include:
   statistical inference using fixed and random effects; multiple comparison
   correction using Random field theory, False Discovery Rate and permutation
   testing.
-* 2005, Yale: *Faculty for course on anatomical and functional MRI analysis using SPM*
-* 2001, Melbourne, Australia: *Delivered 9 hours of lectures and 5 hours of
-  practical sessions on functional MRI analysis using SPM* covering similar
-  topics to Oslo course above.
+* 2005, Yale: *Faculty for course on anatomical and functional MRI analysis
+  using SPM*
+* 2001, Melbourne, Australia: gave 9 hours of lectures and 5 hours of practical
+  sessions on functional MRI analysis using SPM covering similar topics to Oslo
+  course above.
 
-.. [#] D. A. Aruliah *et al* (2012) "Best Practices for Scientific Computing".
-   http://arxiv.org/abs/1210.0530
+.. |--| unicode:: U+2013   .. en dash
+.. |---| unicode:: U+2014  .. em dash, trimming surrounding whitespace
+   :trim:
