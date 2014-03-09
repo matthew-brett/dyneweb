@@ -25,7 +25,8 @@ explanation so far is `exploring formulae in R
 
 Most of the code I work on is at `matthew-brett github`_.
 
-I wrote some tutorials hosted at pydagogue_.  My personal favorite is an
+I wrote some tutorials on imaging and statistics hosted at `Perrin academy`_.  I
+have more tutorials about coding at pydagogue_.  My personal favorite is an
 introduction to git_ concepts called `git foundations`_
 
 I try to keep my list of :ref:`publications <publications>` up to date.  Please

@@ -12,7 +12,8 @@
 
 .. my personal links
 .. _email me: matthew.brett@gmail.com
-.. _site: matthew.dynevor.org
+.. _site: http://matthew.dynevor.org
+.. _perrin academy: http://perrin.dynevor.org
 .. _site source: http://gitorious.org/personal-www/dyneweb
 .. _Michael Sowa: http://en.wikipedia.org/wiki/Michael_Sowa
 .. _pydagogue: http://matthew-brett.github.com/pydagogue
