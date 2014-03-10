@@ -80,7 +80,7 @@ paper with Rebecca Saxe and Nancy Kanwisher on the region of interest technique
 for analysing FMRI data (Saxe et al 2006).
 
 With Eleftherios Garyfallidis and Ian Nimmo-Smith, I became increasingly
-interested in diffusion imaging analysis (Garyfallidis et al 2010, 2012, 2014)
+interested in diffusion imaging analysis (Garyfallidis et al 2010, 2012, 2014).
 
 With Jean-Baptiste Poline, I wrote a review and tutorial paper on the general
 linear model in functional MRI for a recent special issue of NeuroImage (Poline
@@ -189,11 +189,11 @@ Medical Positions
     Registrar in neurology at the Radcliffe Infirmary, Oxford
 **August 1994 – April 1995**
     Senior house officer in neurology at The National Hospital for Neurology,
-    Queen square, London
+    Queen Square, London
 **August 1992 – July 1994**
     Senior house officer medical rotation at St Bartholomew’s Hospital, London
 **February 1992 – July 1992**
-    Senior house officer in neurosciences at Addenbrookes Hospital, Cambridge
+    Senior house officer in neurosciences at Addenbrooke's Hospital, Cambridge
 **August 1991 – January 1992**
     Research worker at the Institute of Psychiatry, London
 **August 1990 – July 1991**
