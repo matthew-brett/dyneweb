@@ -140,7 +140,12 @@ me to go back to previous tutorials in which I had tried to mix code and
 explanation, and rewrite them as I had imagined them, with full interactivity,
 simple code and high-quality mathematical markup (see online *tutorial* section
 of publications).  The IPython notebook has been picked up very rapidly and has
-already been used in a number of publications in genetics and neuroimaging to
+already been used in a number of publications from statistics, microbial
+ecology, genomics, cosmology, astronomy, oceaonography, computational biology,
+and computational neuroscience [#ipython-refs].
+
+https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks#wiki--reproducible-academic-publications
+
 give full reproducible account of ideas and calculations.
 
 With Jean-Baptiste Poline and Paul Ivanov, we have used this technology to give
