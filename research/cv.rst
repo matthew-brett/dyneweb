@@ -33,15 +33,15 @@ There are five threads to my work:
 #. Research on brain basis of movement planning and performance
 #. Research, teaching and consulting on brain imaging methods
 #. Development of open-source software for imaging methods
-#. Teaching of computational process and ideas
+#. Teaching scientific computing
 
 Training in neurology
 =====================
 
-I trained in neurology at Cambridge, St Bartholomew's hospital, The National
-Hospital for Neurology, Oxford and the Hammersmith Hospital. I had a National
-Training Number to continue training through to consultant level but gave this
-up to continue research.
+I trained in neurology at: Cambridge; St Bartholomew's hospital; The National
+Hospital for Neurology; Oxford and the Hammersmith Hospital. I had a National
+Training Number to continue training to consultant level but gave this up to
+continue research.
 
 Research on movement
 ====================
@@ -80,7 +80,10 @@ paper with Rebecca Saxe and Nancy Kanwisher on the region of interest technique
 for analysing FMRI data (Saxe et al 2006).
 
 With Eleftherios Garyfallidis and Ian Nimmo-Smith, I became increasingly
-interested in diffusion imaging analysis (Garyfallidis et al 2010, 2012, 2014).
+interested in diffusion imaging (Garyfallidis et al 2010, 2012). Our
+collaboration became the dipy project, which has since developed into a
+successful international collaboration of diffusion researchers (Garyfallidis
+2014).
 
 With Jean-Baptiste Poline, I wrote a review and tutorial paper on the general
 linear model in functional MRI for a recent special issue of NeuroImage (Poline
@@ -89,23 +92,22 @@ and Brett 2012).
 Development of open-source software for imaging methods
 =======================================================
 
-When I was working at the MRC CBSU, I went to a job talk by Russell Epstein.  I
-was struck by the simplicity and elegance of Russell's imaging work on the
-functions of the parahippocampal face area. At the time Russell was working with
-Nancy Kanwisher.  SPM software could not do the region-of-interest analyses that
-Russell wanted to do; this barrier was enough to make it a lot less likely that
-other researchers would use these methods.  With colleagues in France, I wrote
-the MarsBaR region of interest toolbox that allows Kanwisher-type
-region-of-interest analyses using SPM.  Since then I have updated and released
-MarsBaR at regular intervals. The abstract for MarsBaR has been cited nearly
-1500 times.
+When I was working at the MRC CBSU, I went to a job talk by Russell Epstein in
+which he described his work with Nancy Kanwisher using functional MRI to study
+the parahippocampal place area. I was struck by the simplicity and elegance of
+their analysis.  At the time we could not use SPM software to do these analyses
+and this barrier was enough to make it a lot less likely that other researchers
+would use these methods.  With colleagues in France, I wrote the MarsBaR region
+of interest toolbox that allows Kanwisher-type region-of-interest analyses using
+SPM.  Since then I have updated and released MarsBaR at regular intervals. The
+abstract for MarsBaR has been cited nearly 1500 times.
 
 I worked on wavelet analysis methods with Federico Turkheimer and John Aston.
 This work introduced me to David Donoho's writing and the concept of
-reproducible science.  We used our own Phiwave toolbox for an analysis for a
-competition at the Human Brain Mapping Conference (Aston et al 2006).  I
-published all the scripts for the analysis to make it reproducible; see
-http://phiwave.sourceforge.net/fiac/index.html.
+reproducible science [#donoho]_.  We used our own Phiwave toolbox for an
+analysis for a competition at the Human Brain Mapping Conference (Aston et al
+2006).  I published all the scripts for the analysis to make it reproducible;
+see http://phiwave.sourceforge.net/fiac/index.html.
 
 While on a two-year visit to Berkeley from 2003 I started working with
 programmers and scientists interested in open-source software development.  With
@@ -122,19 +124,20 @@ practice of successful scientific programmers, and allowed me to see and use the
 many tools that are developing for improving scientific code and sharing
 analyses. For example, all our `nipy.org`-based projects use standard
 open-source best practice for software development, including distributed
-version control based at http://github.com, full web-based code review,
-automated unit tests, automated remote testing of all code commits using our own
-continuous integration server and publicly available testing servers for
-open-source projects.
+version control based at http://github.com/nipy, full web-based code review,
+and automated code testing on our own servers and publicly available testing
+servers for open-source projects.
 
-The Nipy community now consists of six projects. I am the lead developer for two
-of these, and a core developer of another (see *software* section in
-publications).
+The Nipy community now consists of six projects. I am the lead developer of the
+main *nipy* project and the *nibabel* image reading library, and a core
+developer of *dipy* (see above).
 
 In part because of this work, I have become increasingly involved in projects to
 teach computing methods to students and researchers. I have taught and assisted
-at "Software Carpentry" workshops teaching basic techniques for using scientific
-code.  I have been lucky to have been very close to the development of the
+at *Software Carpentry* workshops [#swc]_ teaching basic techniques for using
+scientific code.
+
+I have been lucky to have been very close to the development of the
 IPython notebook, an interactive web-based application that allows sharing of
 code and data for describing analyses and teaching. This technology has allowed
 me to go back to previous tutorials in which I had tried to mix code and
@@ -142,13 +145,12 @@ explanation, and rewrite them as I had imagined them, with full interactivity,
 simple code and high-quality mathematical markup (see online *tutorial* section
 of publications).  The IPython notebook has been picked up very rapidly and has
 already been used for reproducible publications in statistics, microbial
-ecology, genomics, cosmology, astronomy, oceaonography, computational biology,
+ecology, genomics, cosmology, astronomy, oceanography, computational biology,
 and computational neuroscience [#ipython-refs]_.
 
 With Jean-Baptiste Poline and Paul Ivanov, we have used this technology to give
 a course on practical neuroimaging that combines teaching of the concepts with
-code implementing and illustrating these concepts
-(http://practical-neuroimaging.github.io).
+code implementing and illustrating these concepts.
 
 ******************
 Research Positions
@@ -158,8 +160,8 @@ Research Positions
     *Associate researcher at the Brain Imaging Center, University of California,
     Berkeley*. Consulting on design and analysis of functional brain imaging
     data; post-graduate teaching on functional imaging ; development of `nipy`
-    open source software projects (see below); contributing to development of
-    new algorithms for analysis of diffusion imaging; delivering course teaching
+    open source software projects; contributing to development of new algorithms
+    for analysis of diffusion imaging; giving a 28-week course teaching
     neuroimaging analysis through examples of running code.
 **October 2005 – July 2008**
     *Senior investigator scientist at the MRC Cognition & Brain Sciences Unit,
@@ -279,14 +281,14 @@ Invited talks on neuroimaging methods in Cambridge, London, Oxford, York,
 Sheffield, Paris, Lyon, Marseille, Tokyo, Buenos Aires, Berkeley, Stanford,
 Havana; including:
 
-* 2013: invited speaker for International Neuroinformatics Coordinating
-  Facility workshop in Havana.
-* 2009: presentation on "Neuroimaging in Python" to Neuroinformatics session of
-  Human Brain Mapping conference
+* 2013: invited speaker for International Neuroinformatics Coordinating Facility
+  workshop in Havana; "The need and the methods for reproducible science".
+* 2009: presentation to Neuroinformatics session of Human Brain Mapping
+  conference; "Neuroimaging in Python".
 * 2009: invited speaker for FMRIB Software Library course at Human Brain
-  Mapping conference, San Francisco
-* 2007 - invited speaker for 5th Latin-American congress of clinical
-  neurophysiology, Havana.
+  Mapping conference, San Francisco; "Experimental design".
+* 2007: invited speaker for 5th Latin-American congress of clinical
+  neurophysiology, Havana; "Software and change in science".
 * 2004, 2006, 2007: Invited speaker for Human Brain Mapping conference course on
   functional MRI
 * 2000 – 2003: Invited speaker at annual functional imaging courses held in
@@ -296,10 +298,9 @@ Courses taught
 ==============
 
 * February |--| October 2013, Berkeley; with Jean-Baptiste Poline and Paul
-  Ivanov - a course on practical neuroimaging - teaching the ideas of analysis
-  with code, and the practice of scientific coding :
-  http://practical-neuroimaging.github.io/
-* December 2013: teacher at the "fMRI data analysis workshop" at Stanford.
+  Ivanov. A course for two hours per week on "practical neuroimaging" - teaching
+  the ideas of analysis with code, and the practice of scientific coding.
+* December 2013, Stanford; teacher at the "fMRI data analysis workshop".
 * 2008 – present, Berkeley: *Regular post-graduate teaching for "Functional MRI
   Methodology Seminar" series and "Neuroimaging seminar series"*. My topics
   include: motion correction; cross-modality registration; registration between
@@ -308,7 +309,7 @@ Courses taught
   using fixed and random effects; multiple comparison correction using Random
   field theory, False Discovery Rate and permutation testing; diffusion imaging
   principles and analysis.
-* 1999 - 2003; 2005 - 2008, Cambridge: *Regular seminars on image processing and
+* 1999 - 2003; 2005 - 2008, Cambridge; *Regular seminars on image processing and
   statistics in functional MRI* covering motion correction; within and cross
   modality registration; cross subject brain registration; statistical inference
   and multiple comparison correction using Random field theory, False Discovery
@@ -328,9 +329,17 @@ Courses taught
 
 .. rubric:: Footnotes
 
+.. [#donoho] Buckheit, Jonathan B., and David L. Donoho. *Wavelab and
+   reproducible research*. Springer New York, 1995.
+
 .. [#ipython-refs]
    https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks#wiki--reproducible-academic-publications
+.. [#swc] Software carpentry (http://software-carpentry.org) is an international
+   project to teach scientists to use computing tools; founded in 1998, it is
+   now part of the Mozilla Science Lab.
 
+.. [#dpc-nibabel] http://qa.debian.org/popcon.php?package=nibabel
+.. [#dpc-dipy] http://qa.debian.org/popcon.php?package=dipy
 
 .. |--| unicode:: U+2013   .. en dash
 .. |---| unicode:: U+2014  .. em dash, trimming surrounding whitespace

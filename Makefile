@@ -11,6 +11,9 @@ BUILDDIR      = _build
 WWW = dynevoro@dynevor.org:public_html/matthew
 SITE        = $(BUILDDIR)/html
 
+# Join PDF
+pdfconcat = /System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py
+
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
 PAPEROPT_letter = -D latex_paper_size=letter
@@ -149,3 +152,8 @@ cv: checkcv latexpdf
 	-rm -rf research/publist.{aux,bbl,bcf,blg,log,out,pdf,run.xml}
 	cd research && make publist
 	cp research/publist.pdf $(BUILDDIR)/latex
+
+fullcv: cv
+	pdfconcat -o $(BUILDDIR)/latex/matthew_brett_cv.pdf \
+	    $(BUILDDIR)/latex/cv.pdf \
+	    $(BUILDDIR)/latex/publist.pdf
