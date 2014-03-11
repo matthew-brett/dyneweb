@@ -90,12 +90,13 @@ Development of open-source software for imaging methods
 =======================================================
 
 When I was working at the MRC CBSU, I went to a job talk by Russell Epstein.  I
-was struck by the simplicity and elegance of the work of Russell had done with
-Nancy Kanwisher.  At the time it was not possible use standard SPM software to
-do the analyses that Russell wanted to do; this barrier was enough to make it a
-lot less likely that other researchers would use these methods.  With colleagues
-in France, I wrote the MarsBaR region of interest toolbox that allows
-Kanwisher-type analyses using SPM.  Since then I have updated and released
+was struck by the simplicity and elegance of Russell's imaging work on the
+functions of the parahippocampal face area. At the time Russell was working with
+Nancy Kanwisher.  SPM software could not do the region-of-interest analyses that
+Russell wanted to do; this barrier was enough to make it a lot less likely that
+other researchers would use these methods.  With colleagues in France, I wrote
+the MarsBaR region of interest toolbox that allows Kanwisher-type
+region-of-interest analyses using SPM.  Since then I have updated and released
 MarsBaR at regular intervals. The abstract for MarsBaR has been cited nearly
 1500 times.
 
@@ -140,17 +141,14 @@ me to go back to previous tutorials in which I had tried to mix code and
 explanation, and rewrite them as I had imagined them, with full interactivity,
 simple code and high-quality mathematical markup (see online *tutorial* section
 of publications).  The IPython notebook has been picked up very rapidly and has
-already been used in a number of publications from statistics, microbial
+already been used for reproducible publications in statistics, microbial
 ecology, genomics, cosmology, astronomy, oceaonography, computational biology,
-and computational neuroscience [#ipython-refs].
-
-https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks#wiki--reproducible-academic-publications
-
-give full reproducible account of ideas and calculations.
+and computational neuroscience [#ipython-refs]_.
 
 With Jean-Baptiste Poline and Paul Ivanov, we have used this technology to give
 a course on practical neuroimaging that combines teaching of the concepts with
-code implementing and illustrating these concepts (http://practical-neuroimaging.github.io).
+code implementing and illustrating these concepts
+(http://practical-neuroimaging.github.io).
 
 ******************
 Research Positions
@@ -281,11 +279,11 @@ Invited talks on neuroimaging methods in Cambridge, London, Oxford, York,
 Sheffield, Paris, Lyon, Marseille, Tokyo, Buenos Aires, Berkeley, Stanford,
 Havana; including:
 
-* 2013 |--| invited speaker for International Neuroinformatics Coordinating
+* 2013: invited speaker for International Neuroinformatics Coordinating
   Facility workshop in Havana.
-* 2009 |--| presentation on "Neuroimaging in Python" to Neuroinformatics
-  session of Human Brain Mapping conference
-* 2009 |--| invited speaker for FMRIB Software Library course at Human Brain
+* 2009: presentation on "Neuroimaging in Python" to Neuroinformatics session of
+  Human Brain Mapping conference
+* 2009: invited speaker for FMRIB Software Library course at Human Brain
   Mapping conference, San Francisco
 * 2007 - invited speaker for 5th Latin-American congress of clinical
   neurophysiology, Havana.
@@ -301,6 +299,7 @@ Courses taught
   Ivanov - a course on practical neuroimaging - teaching the ideas of analysis
   with code, and the practice of scientific coding :
   http://practical-neuroimaging.github.io/
+* December 2013: teacher at the "fMRI data analysis workshop" at Stanford.
 * 2008 – present, Berkeley: *Regular post-graduate teaching for "Functional MRI
   Methodology Seminar" series and "Neuroimaging seminar series"*. My topics
   include: motion correction; cross-modality registration; registration between
@@ -326,6 +325,12 @@ Courses taught
 * 2001, Melbourne, Australia: gave 9 hours of lectures and 5 hours of practical
   sessions on functional MRI analysis using SPM covering similar topics to Oslo
   course above.
+
+.. rubric:: Footnotes
+
+.. [#ipython-refs]
+   https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks#wiki--reproducible-academic-publications
+
 
 .. |--| unicode:: U+2013   .. en dash
 .. |---| unicode:: U+2014  .. em dash, trimming surrounding whitespace
