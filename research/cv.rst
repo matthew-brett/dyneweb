@@ -234,8 +234,8 @@ Reviewer for NeuroImage, Human Brain Mapping, Journal of Cognitive Neuroscience,
 Neuroscience Letters, Clinical Neurophysiology, Journal of Neuroimaging, the
 Journal of Clinical and Experimental Neuropsychology, Frontiers in
 Neuroinformatics, Computing in Science and Engineering, Frontiers in Brain
-Imaging Methods, Computers in Science and Engineering, Public Library of Science
-One. Member of the editorial board of *Frontiers in Brain Imaging Methods*.
+Imaging Methods, Public Library of Science One. Member of the editorial board of
+Frontiers in Brain Imaging Methods.
 
 Graduate supervision
 ====================
