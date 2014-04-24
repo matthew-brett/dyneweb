@@ -68,13 +68,13 @@ easily be mistaken for frontal lobe activation (Brett et al 1999).
 
 My experience of programming allowed me to develop new methods.  I co-wrote a
 paper with one of the main SPM authors on methods of warping damaged brains to
-standard brain templates (Brett et al 2001) (418 citations).  In 2001 I gave my
+standard brain templates (Brett et al 2001) (428 citations).  In 2001 I gave my
 first full neuroimaging course, giving nine hours of lectures and 5 hours of
 practical teaching. With Ingrid Johnsrude and Adrian Owen, I wrote a review on
-ways of identifying location of brain activation, cited 770 times. Later I
+ways of identifying location of brain activation, cited 780 times. Later I
 published a paper with Tom Nichols, Jesper Anderson and others on an incorrect
 statistical procedure for so-called "conjunction analysis" in SPM (Nichols et al
-2005) (859 citations). I contributed to the standard reference paper on
+2005) (877 citations). I contributed to the standard reference paper on
 reporting guidelines for functional MRI (Poldrack et al 2008) and co-authored a
 paper with Rebecca Saxe and Nancy Kanwisher on the region of interest technique
 for analysing FMRI data (Saxe et al 2006).
@@ -100,7 +100,7 @@ and this barrier was enough to make it a lot less likely that other researchers
 would use these methods.  With colleagues in France, I wrote the MarsBaR region
 of interest toolbox that allows Kanwisher-type region-of-interest analyses using
 SPM.  Since then I have updated and released MarsBaR at regular intervals. The
-abstract for MarsBaR has been cited nearly 1500 times.
+abstract for MarsBaR has been cited more than 1500 times.
 
 I worked on wavelet analysis methods with Federico Turkheimer and John Aston.
 This work introduced me to David Donoho's writing and the concept of
