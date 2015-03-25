@@ -68,16 +68,16 @@ easily be mistaken for frontal lobe activation (Brett et al 1999).
 
 My experience of programming allowed me to develop new methods.  I co-wrote a
 paper with one of the main SPM authors on methods of warping damaged brains to
-standard brain templates (Brett et al 2001) (428 citations).  In 2001 I gave my
+standard brain templates (Brett et al 2001) (480 citations).  In 2001 I gave my
 first full neuroimaging course, giving nine hours of lectures and 5 hours of
 practical teaching. With Ingrid Johnsrude and Adrian Owen, I wrote a review on
-ways of identifying location of brain activation, cited 780 times. Later I
+ways of identifying location of brain activation, cited 856 times. Later I
 published a paper with Tom Nichols, Jesper Anderson and others on an incorrect
 statistical procedure for so-called "conjunction analysis" in SPM (Nichols et al
-2005) (877 citations). I contributed to the standard reference paper on
-reporting guidelines for functional MRI (Poldrack et al 2008) and co-authored a
-paper with Rebecca Saxe and Nancy Kanwisher on the region of interest technique
-for analysing FMRI data (Saxe et al 2006).
+2005) (1007 citations). I am one of six authors of the standard reference
+paper on reporting guidelines for functional MRI (Poldrack et al 2008) (and
+co-authored a paper with Rebecca Saxe and Nancy Kanwisher on the region of
+interest technique for analysing FMRI data (Saxe et al 2006).
 
 With Eleftherios Garyfallidis and Ian Nimmo-Smith, I became increasingly
 interested in diffusion imaging (Garyfallidis et al 2010, 2012). Our
@@ -100,14 +100,15 @@ and this barrier was enough to make it a lot less likely that other researchers
 would use these methods.  With colleagues in France, I wrote the MarsBaR region
 of interest toolbox that allows Kanwisher-type region-of-interest analyses using
 SPM.  Since then I have updated and released MarsBaR at regular intervals. The
-abstract for MarsBaR has been cited more than 1500 times.
+abstract for MarsBaR has been cited more than 1700 times.
 
 I worked on wavelet analysis methods with Federico Turkheimer and John Aston.
 This work introduced me to David Donoho's writing and the concept of
 reproducible science [#donoho]_.  We used our own Phiwave toolbox for an
 analysis for a competition at the Human Brain Mapping Conference (Aston et al
 2006).  I published all the scripts for the analysis to make it reproducible;
-see http://phiwave.sourceforge.net/fiac/index.html.
+see http://phiwave.sourceforge.net/fiac/index.html.  I believe this is the
+first publication of a reproducible paper in neuroimaging.
 
 While on a two-year visit to Berkeley from 2003 I started working with
 programmers and scientists interested in open-source software development.  With
@@ -297,11 +298,12 @@ Havana; including:
 Courses taught
 ==============
 
-* February |--| October 2013, Berkeley; with Jean-Baptiste Poline and Paul
-  Ivanov. A course for two hours per week on "practical neuroimaging" - teaching
-  the ideas of analysis with code, and the practice of scientific coding.
+* 2013 |--|; Berkeley; with Jean-Baptiste Poline, Stéfan van der Walt and Paul
+  Ivanov. A course for two hours per week on "practical neuroimaging" -
+  teaching the ideas of analysis with code, and the practice of scientific
+  coding : http://http://practical-neuroimaging.github.io
 * December 2013, Stanford; teacher at the "fMRI data analysis workshop".
-* 2008 – present, Berkeley: *Regular post-graduate teaching for "Functional MRI
+* 2008 |--|; Berkeley: *Regular post-graduate teaching for "Functional MRI
   Methodology Seminar" series and "Neuroimaging seminar series"*. My topics
   include: motion correction; cross-modality registration; registration between
   subjects; modeling of evoked haemodynamic signal; analysis of variance and
@@ -341,6 +343,4 @@ Courses taught
 .. [#dpc-nibabel] http://qa.debian.org/popcon.php?package=nibabel
 .. [#dpc-dipy] http://qa.debian.org/popcon.php?package=dipy
 
-.. |--| unicode:: U+2013   .. en dash
-.. |---| unicode:: U+2014  .. em dash, trimming surrounding whitespace
-   :trim:
+.. include:: ../links.txt

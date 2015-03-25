@@ -23,6 +23,7 @@
 .. source control sites
 .. _git: http://git-scm.com/
 .. _gitorious: http://gitorious.org
+.. _github: http://github.com
 
 .. Fernando's links
 .. _Fernando's site: http://fperez.org
@@ -104,15 +105,37 @@
 .. _FreeSurfer: http://surfer.nmr.mgh.harvard.edu
 .. _voxbo: http://www.voxbo.org
 .. _VTK: http://vtk.org
+.. _marsbar: http://marsbar.sourceforge.net
+.. _phiwave: http://phiwave.sourceforge.net
 
 .. Other organizations
 .. _enthought: http://www.enthought.com
 .. _kitware: http://www.kitware.com
 .. _netlib: http://netlib.org
 
+.. Tutorials
+.. _Introduction to SPM statistics:
+   http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesStatistics
+.. _Introduction to smoothing:
+   http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesSmoothing
+.. _Random field theory:
+   http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesRandomFields
+
+.. My projects
+.. _delocate: https://pypi.python.org/pypi/delocate
+.. _wheels2dmg: https://pypi.python.org/pypi/wheels2dmg
+.. _bdist_mpkg: https://pypi.python.org/pypi/bdist_mpkg
+.. _nibabel pypi: https://pypi.python.org/pypi/nibabel
+
+.. Continuous integration
+.. _travis-ci: https://travis-ci.org/
+
 .. Misc code
 .. _ImageMagick: http://www.imagemagick.org
 
 .. |emdash| unicode:: U+02014
+.. |--| unicode:: U+2013   .. en dash
+.. |---| unicode:: U+2014  .. em dash, trimming surrounding whitespace
+   :trim:
 
 .. vim: ft=rst
