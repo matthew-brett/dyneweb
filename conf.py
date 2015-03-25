@@ -229,6 +229,8 @@ PREAMBLE = r"""%\documentclass{article}
 \renewcommand\release{}
 \renewcommand\author{}
 \usepackage{mathpazo}
+\pagestyle{plain}
+\pagenumbering{arabic}
 \usepackage[defernumbers=true, bibstyle=authoryear, backend=biber, maxbibnames=10, sorting=ydnt]{biblatex}
 \addbibresource{""" + os.path.abspath(os.path.join('research',
                                                    'matthew_brett.bib}'))
