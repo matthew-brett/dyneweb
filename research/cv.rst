@@ -219,8 +219,7 @@ Reviewer for NeuroImage, Human Brain Mapping, Journal of Cognitive Neuroscience,
 Neuroscience Letters, Clinical Neurophysiology, Journal of Neuroimaging, the
 Journal of Clinical and Experimental Neuropsychology, Frontiers in
 Neuroinformatics, Computing in Science and Engineering, Frontiers in Brain
-Imaging Methods, Public Library of Science One. Member of the editorial board of
-Frontiers in Brain Imaging Methods.
+Imaging Methods, Public Library of Science One.
 
 Graduate supervision
 ====================
@@ -316,15 +315,9 @@ Courses taught
 
 .. [#donoho] Buckheit, Jonathan B., and David L. Donoho. *Wavelab and
    reproducible research*. Springer New York, 1995.
-
-.. [#ipython-refs]
-   https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks#wiki--reproducible-academic-publications
 .. [#swc] Software carpentry (http://software-carpentry.org) is an international
    project to teach scientists to use computing tools; founded in 1998, it is
    now part of the Mozilla Science Lab.
-
-.. [#dpc-nibabel] http://qa.debian.org/popcon.php?package=nibabel
-.. [#dpc-dipy] http://qa.debian.org/popcon.php?package=dipy
 .. [#fiac-analysis] http://phiwave.sourceforge.net/fiac/index.html
 .. [#pna-course] "Practical neuroimaging" course at
    http://practical-neuroimaging.github.io
