@@ -24,21 +24,22 @@ def main():
     parser = argparse.ArgumentParser(description='Process bib file.')
     parser.add_argument('bibfile', help='bib file')
     args = parser.parse_args()
-    with open(args.bibfile, 'r') as bibfile:
-        bp = BibTexParser(bibfile)
+    with open(args.bibfile, 'rt') as bibfile:
+        bp = BibTexParser(bibfile.read())
         entries = bp.get_entry_list()
         for entry in entries:
             keywords = entry['keyword']
-            id = entry['id']
+            id = entry['ID']
             keywords = split_keywords(keywords)
             if len(TYPE_CLASSIFIERS.intersection(keywords)) != 1:
                 print('type classifiction seems wrong', id, keywords)
-                sys.exit(1)
+                return 1
             if ARTICLE_TYPES.intersection(keywords):
                 if len(TOPIC_CLASSIFIERS.intersection(keywords)) != 1:
                     print('topic classifiction seems wrong', id, keywords)
-                    sys.exit(1)
+                    return 1
+    return 0
 
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main())
