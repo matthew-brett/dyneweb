@@ -29,19 +29,17 @@ Research and teaching
 
 There are five threads to my work:
 
-#. Training in neurology to registrar level
-#. Research on brain basis of movement planning and performance
-#. Research, teaching and consulting on brain imaging methods
-#. Development of open-source software for imaging methods
-#. Teaching scientific computing
+#. Training in neurology to registrar level;
+#. Research on brain basis of movement planning and performance;
+#. Research, teaching and consulting on brain imaging methods;
+#. Development of open-source software for brain imaging;
+#. Teaching statistical and scientific computing.
 
 Training in neurology
 =====================
 
 I trained in neurology at: Cambridge; St Bartholomew's hospital; The National
-Hospital for Neurology; Oxford and the Hammersmith Hospital. I had a National
-Training Number to continue training to consultant level but gave this up to
-continue research.
+Hospital for Neurology; Oxford and the Hammersmith Hospital.
 
 Research on movement
 ====================
@@ -281,6 +279,9 @@ Havana; including:
 Courses taught
 ==============
 
+* 2015; Berkeley; with Jarrod Millman.  Statistics department no 159 course on
+  reproducible and collaborative statistical data science, for statistics
+  undergraduates and masters students [#rcsds-course]_.
 * 2013 |--|; Berkeley; with Jean-Baptiste Poline, Stéfan van der Walt and Paul
   Ivanov. A course on "practical neuroimaging" - teaching the ideas of
   analysis with code, and the practice of scientific coding [#pna-course]_.
@@ -321,6 +322,8 @@ Courses taught
 .. [#fiac-analysis] http://phiwave.sourceforge.net/fiac/index.html
 .. [#pna-course] "Practical neuroimaging" course at
    http://practical-neuroimaging.github.io
+.. [#rcsds-course] Reproducible and collaborative statistical data science:
+   http://www.jarrodmillman.com/stat159-fall2015
 
 
 .. include:: ../links.txt
