@@ -78,17 +78,15 @@ science undergraduates
 Using Python and the many tools that have grown up around it, it is now
 possible to combine teaching of best computational practice, basic
 mathematical ideas and interactive computing into a single coherent course.
-With this background, the students learn standard disciplined computing
-practice, as well as the underlying ideas behind the analysis. They therefore
-learn to criticize, collaborate and improve, while making it easer for their
-peers to do the same.
+With this background, the students learn computing process as well as the
+ideas behind the analysis. They therefore learn to criticize, collaborate and
+improve, while making it easier for their peers to do the same.
 
 I believe that courses that teach like this are the only practical way to
 prepare our students to do sound, transparent and reproducible science in the
-twenty-first century world of data and analysis.  These are the kind of
-courses I have `developed and taught
-<http://practical-neuroimaging.github.io/>`_ at Berkeley over the last few
-years.
+modern world of data and analysis.  These are the kind of courses I have
+`developed and taught <http://practical-neuroimaging.github.io/>`_ with
+colleagues at Berkeley over the last few years.
 
 .. rubric:: References
 
