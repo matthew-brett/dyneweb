@@ -30,9 +30,7 @@ about what this means, and it includes standard use of version control,
 automated testing, and peer review of scientific code :cite:`wilson2014best`.
 These are all techniques than can be shown to reduce error and improve
 collaboration.  I know of no neuroscience or psychology course that teaches
-these, although I have taught on `such a course
-<http://www.jarrodmillman.com/rcsds/index.html>`_ in the Berkeley statistics
-department.
+these.
 
 The second aspect of disciplined scientific practice is related; to have a
 process that teaches steadfast skepticism of our own work and that of other
@@ -71,7 +69,7 @@ what calculations these packages are doing and why.  To quote `Richard Feynman
 tools to teach this kind of computational thinking. For example, the
 scientific computing community has begun to standardize to the Python
 programming language |--| a language so well adapted to teaching that it is
-the standard used for teaching `teenagers
+the standard for teaching `teenagers
 <https://www.raspberrypi.org/documentation/usage/python/>`_ and `computer
 science undergraduates
 <http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm>`_.
@@ -83,9 +81,7 @@ improve, while making it easier for their peers to do the same.
 
 I believe that courses that teach like this are the only practical way to
 prepare our students to do sound, transparent and reproducible science in the
-modern world of data and analysis.  These are the kind of courses I have
-`developed and taught <http://practical-neuroimaging.github.io/>`_ with
-colleagues at Berkeley over the last few years.
+modern world of data and analysis.
 
 .. rubric:: References
 
