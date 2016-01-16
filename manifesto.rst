@@ -4,7 +4,7 @@ Research methods in the twenty-first century
 
 We neuroscientists live in interesting times.
 
-There have been much recent discussion of the possibility that science as
+There has been much recent discussion of the possibility that science as
 current practiced and published has a high rate of error.  A 2015 study
 :cite:`open2015estimating` found that only 39% of a partially-random sample of
 cognitive and social psychology articles could be replicated.  Articles that
@@ -30,7 +30,9 @@ about what this means, and it includes standard use of version control,
 automated testing, and peer review of scientific code :cite:`wilson2014best`.
 These are all techniques than can be shown to reduce error and improve
 collaboration.  I know of no neuroscience or psychology course that teaches
-these.
+these, although I have taught on `such a course
+<http://www.jarrodmillman.com/rcsds/index.html>`_ in the Berkeley statistics
+department.
 
 The second aspect of disciplined scientific practice is related; to have a
 process that teaches steadfast skepticism of our own work and that of other
@@ -66,9 +68,27 @@ students in a different way.  It is important for the students to understand
 what calculations these packages are doing and why.  To quote `Richard Feynman
 <https://www.quora.com/What-did-Richard-Feynman-mean-when-he-said-What-I-cannot-create-I-do-not-understand>`_:
 "What I cannot create, I do not understand". Luckily we now have many good
-tools to teach this kind of computational thinking. In particular, the
-scientific computing community has begun to standarize to the Pytho
-programming language 
+tools to teach this kind of computational thinking. For example, the
+scientific computing community has begun to standardize to the Python
+programming language |--| a language so well adapted to teaching that it is
+the standard programming language used for teaching `teenagers
+<https://www.raspberrypi.org/documentation/usage/python/>`_ and `computer
+science undergraduates
+<http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm>`_.
+Using Python and the many tools that have grown up around it, it is now
+possible to combine teaching of best computational practice, basic
+mathematical ideas and interactive computing into a single coherent course.
+With this background, the students learn standard disciplined computing
+practice, as well as the underlying ideas behind the analysis. They therefore
+learn to criticize, collaborate and improve, while making it easer for their
+peers to do the same.
+
+I believe that courses that teach like this are the only practical way to
+prepare our students to do sound, transparent and reproducible science in the
+twenty-first century world of data and analysis.  These are the kind of
+courses I have `developed and taught
+<http://practical-neuroimaging.github.io/>`_ at Berkeley over the last few
+years.
 
 .. rubric:: References
 
