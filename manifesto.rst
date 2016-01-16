@@ -78,8 +78,7 @@ science undergraduates
 Using Python and the many tools that have grown up around it, it is now
 possible to combine teaching of best computational practice, basic
 mathematical ideas and interactive computing into a single coherent course.
-With this background, the students learn computing process as well as the
-ideas behind the analysis. They therefore learn to criticize, collaborate and
+With this background, the students learn to criticize, collaborate and
 improve, while making it easier for their peers to do the same.
 
 I believe that courses that teach like this are the only practical way to
