@@ -12,7 +12,9 @@ were more complicated to replicate or that had more surprising results had
 lower replication rates.  Ioannidis :cite:`ioannidis2005most` has argued that
 the false positive rate will be higher in expensive, fashionable fields with
 small sample sizes and complex analysis |--| features of neuroscience
-techniques such as neuroimaging.
+techniques such as neuroimaging.  For example, the replication rate of
+associations between candidate genes and diseases or disease risk factors was
+around 1.2% :cite:`ioannidis2011false`.
 
 How did this high rate of false positives come about?  How can we make
 published science more likely to be true?
@@ -29,8 +31,8 @@ be called "best practices in scientific computing".  There is general
 agreement about what this means, and it includes standard use of version
 control, automated testing, and peer review of scientific code
 :cite:`wilson2014best`.  These are all techniques than can be shown to reduce
-error and improve collaboration.  I know of no neuroscience or psychology
-course that teaches these.
+error and improve collaboration.  Like many other skills, they are best taught
+by practice with expert feedback, but they are rarely so taught.
 
 The second aspect of disciplined scientific practice is related; to have a
 process that teaches steadfast skepticism of our own work and that of other
@@ -45,9 +47,10 @@ work well if the student will only be using t-tests, ANOVA or correlation, but
 give them little help in understanding such standard methods as Principal
 Components Analysis, constrained regression and other techniques grouped under
 the heading of "machine learning" :cite:`trevor2009elements`.  To give some
-index of the problem, a recent textbook called "All of statistics: a concise
-course on statistical inference" :cite:`wasserman2013all` does not have the
-terms "ANOVA" or "Analysis of variance" in its index.
+idea of the gap that has opened up between the language of statisticians and
+psychologists, a recent textbook called "All of statistics: a concise course
+on statistical inference" :cite:`wasserman2013all` does not have the terms
+"ANOVA" or "Analysis of variance" in its index.
 
 A second barrier to skepticism is that our methods courses have come to rely
 heavily on off-the-shelf statistical packages such as SPSS and the R computing
@@ -58,17 +61,17 @@ in to uncritical belief in their output |--| a phenomenon known as
 <https://en.wikipedia.org/wiki/Garbage_in%2C_garbage_out#Uses>`_.  By teaching
 in this way we make it more likely that students will get used to the
 dangerous habit of feeding complex data through canned analysis pipelines and
-interpreting output they are in no position to assess.
+interpreting output that they do not fully understand.
 
 The way to overcome both these barriers to skepticism is for us to teach our
 students in a different way.  It is important for the students to understand
 what calculations these packages are doing and why.  To quote `Richard Feynman
 <https://www.quora.com/What-did-Richard-Feynman-mean-when-he-said-What-I-cannot-create-I-do-not-understand>`_:
 "What I cannot create, I do not understand". Luckily we now have many good
-tools to teach this kind of computational thinking. For example, the
-scientific computing community has begun to standardize to the Python
-programming language |--| a language so well adapted to teaching that it is
-the standard for teaching `teenagers
+tools to teach this kind of computational thinking. One major factor in making
+computing easier to teach has been the increasing use of the Python
+programming language for scientific computing.  Python is a language so well
+adapted to teaching that it is the standard starting language for `teenagers
 <https://www.raspberrypi.org/documentation/usage/python/>`_ and `computer
 science undergraduates
 <http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm>`_.
