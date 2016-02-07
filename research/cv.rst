@@ -23,26 +23,27 @@ Personal Details
      | University of California
      | Berkeley CA 94720
 
-*********************
+********
+Overview
+********
+
+* Training in neurology to registrar level;
+* Research on brain basis of movement planning and performance;
+* Research, teaching and consulting on brain imaging methods;
+* Development of open-source software for brain imaging;
+* Teaching of statistical and scientific computing.
+
 Research and teaching
-*********************
-
-There are five threads to my work:
-
-#. Training in neurology to registrar level;
-#. Research on brain basis of movement planning and performance;
-#. Research, teaching and consulting on brain imaging methods;
-#. Development of open-source software for brain imaging;
-#. Teaching statistical and scientific computing.
-
-Training in neurology
 =====================
 
-I trained in neurology at: Cambridge; St Bartholomew's hospital; The National
-Hospital for Neurology; Oxford and the Hammersmith Hospital.
+Metrics from Google scholar [#google-scholar-metrics]_:
 
-Research on movement
-====================
+* Citations: 9955
+* h-index: 29
+* i10-index: 37
+
+On movement neuroscience
+------------------------
 
 From 1996-99 I studied PET imaging of apraxia and movement selection
 supervised by David Brooks and John Stein. From 1999-2003 I worked on movement
@@ -51,88 +52,80 @@ supervised two graduate students on movement neuroscience PhDs (see below).
 Between 2003 |--| 2005 I worked on motor neuroscience with Rich Ivry in
 Berkeley.
 
-Research and teaching on imaging methods
-========================================
+On imaging methods
+------------------
 
-As part of my PET research I studied the principles of imaging methods and
-began to teach in my own lab and as an invited speaker, resulting in a set of
-popular tutorials on imaging statistics and multiple comparison correction
-(see *online tutorials* in publication list). The tutorial on multiple
-comparisons became a book chapter in a standard reference on functional
-imaging analysis (Brett |et al| 2007).
+Highlights:
 
-My understanding of methods led me to imaging methods research. I co-wrote a
-paper on methods of warping damaged brains to standard brain templates (Brett
-|et al| 2001) (480 citations).  In 2001 I gave my first full neuroimaging
-course, giving nine hours of lectures and 5 hours of practical teaching. With
-Ingrid Johnsrude and Adrian Owen, I wrote a review on ways of identifying
-location of brain activation, cited 857 times. Later I published a paper with
-Tom Nichols, Jesper Anderson and others on an incorrect statistical procedure
-for so-called "conjunction analysis" in the standard functional imaging
-software (Nichols |et al| 2005) (1008 citations). I am one of six authors of the
-standard reference paper on reporting guidelines for functional MRI (Poldrack
-|et al| 2008). I co-authored a paper with Rebecca Saxe and Nancy Kanwisher on
-the region of interest technique for analysing FMRI data (Saxe |et al| 2006).
+* Author of a series of popular tutorials on imaging statistics and multiple
+  comparison correction (see *online tutorials* in publication list). The
+  tutorial on multiple comparisons became a book chapter in a standard
+  reference on functional imaging analysis (Brett |et al| 2007).
+* Work on warping images of damaged brains to standard brain templates
+  (Brett |et al| 2001) (532 citations);
+* Brett, Johnsrude and Owen 20001 review on ways of identifying location of brain activation, cited 913
+  times;
+* Nichols, Brett |et al| 2005 described an error in the  statistical procedure
+  for so-called "conjunction analysis" in the standard SPM functional imaging
+  software (1106 citations);
+* One of six authors of the standard reference paper on reporting guidelines
+  for functional MRI (Poldrack |et al| 2008);
+* With Rebecca Saxe and Nancy Kanwisher, a defence of the region of interest
+  technique for analysing FMRI data (Saxe |et al| 2006).
+* With Jean-Baptiste Poline, a review and tutorial paper on the general linear
+  model in functional MRI for a recent special issue of NeuroImage (Poline and
+  Brett 2012).
 
-With Eleftherios Garyfallidis and Ian Nimmo-Smith, I became interested in
-diffusion imaging (Garyfallidis |et al| 2010, 2012). Our collaboration became
-the dipy project, which has continued to develop into a successful
-international collaboration of diffusion researchers (Garyfallidis |et al|
-2014).
+Open-source scientific computing
+================================
 
-With Jean-Baptiste Poline, I wrote a review and tutorial paper on the general
-linear model in functional MRI for a recent special issue of NeuroImage (Poline
-and Brett 2012).
+Metrics:
 
-Development and teaching on open-source scientific computing
-============================================================
+* http://depsy.org/person/344202 -- see [#depsy]_.  I am on the 99th centile
+  for research code impact;
+* https://github.com/matthew-brett;
+* https://www.openhub.net/accounts/matthew-brett;
 
-My teaching and research in neuroscience and imaging taught me that the code
-we use plays a large role in our ability to think about the analysis and ask
-new questions of the data.  My teaching showed me that bad teaching and
-closed-source or poorly-written scientific software can have a dramatic effect
-on the quality of research.
+Grants:
 
-With colleagues in France, I wrote the MarsBaR region of interest toolbox for
-region-of-interest analyses in brain imaging.  The toolbox continues to be in
-wide general use, and the abstract for MarsBaR has been cited more than 1750
-times.
+* Berkeley 2004 -- 2006; with Jarrod Millman, I initiated a proposal to
+  develop an international collaboration with statisticians, signal- and
+  image-processing experts to write a new open software library for functional
+  imaging analysis.  The NIH funded this proposal as a 3-year R01 grant from
+  2007-2010 (Grant no 5R01MH081909-02).  The program became the Nipy project
+  |--| http://nipy.org (see below);
 
-I worked on wavelet analysis methods with Federico Turkheimer and John Aston.
-This work introduced me to David Donoho's work on reproducible science
-[#donoho]_.  We used our own Phiwave toolbox for an analysis for a competition
-at the Human Brain Mapping Conference (Aston, Turkheimer and Brett, 2006).  I
-published all the scripts for the analysis to make it reproducible
-[#fiac-analysis]_.  I believe this is the first publication of a reproducible
-paper in neuroimaging.
+Software (highlights; see metrics):
 
-While on a two-year visit to Berkeley from 2003 I started working with
-programmers and scientists interested in open-source software in scientific
-computing.  With Jarrod Millman, I initiated a proposal to develop an
-international collaboration with statisticians, signal- and image-processing
-experts to write a new open software library for functional imaging analysis.
-The NIH funded this proposal as a 3-year R01 grant from 2007-2010.  The
-program became the Nipy project |--| http://nipy.org.
+* Main author and maintainer of the `MarsBaR
+  <http://marsbar.sourceforge.net/>`_ region of interest toolbox for
+  region-of-interest analyses in brain imaging.  The toolbox continues to be
+  in wide general use, and the abstract for MarsBaR has been cited nearly 2000
+  times (see publications);
+* With Federico Turkheimer and John Aston, author of the `PhiWave
+  <http://phiwave.sourceforge.net/>`_ Toolbox for wavelet analysis of brain
+  images.  We used Phiwave for an analysis for a competition at the Human
+  Brain Mapping Conference (Aston, Turkheimer and Brett, 2006).  I published
+  all the scripts for the analysis to make it reproducible [#fiac-analysis]_.
+  I believe this is the first publication of a reproducible paper in
+  neuroimaging;
+* Lead developer and maintainer of `nipy <http://nipy.org/nipy>`_, an FMRI
+  analysis package written in Python.  Nipy was NIH funded and is an
+  international collaboration of imaging researchers from the USA, France,
+  Switzerland and the UK. Rated at 97th centile for research impact by Depsy
+  [#depsy-nipy]_;
+* Lead developer and maintainer of `nibabel <http://nipy.org/nibabel>`_.
+  Nibabel is the standard Python toolbox for reading and writing neuroimaging
+  data formats.  Depsy rates nibabel at 100th centile for research impact
+  [#depsy-nibabel]_;
+* Third developer by code commits for `dipy <http://nipy.org/nibabel>`_ |--|
+  the standard Python package for analysis of diffusion imaging data.
+  Depsy-rated 99th centile for research impact [#depsy-dipy]_.
 
-The collaborations from this work exposed me to the current best practice for
-scientific code and sharing analyses. For example, all our `nipy.org`-based
-projects use open-source best practice for software development, including
-distributed version control based at http://github.com/nipy, full web-based
-code review, and automated code testing.
-
-The Nipy community now consists of six projects. I am the lead developer of the
-main *nipy* project and the *nibabel* image reading library, and a core
-developer of *dipy* (see above).
-
-My experience in teaching and scientific computing showed me that we
-scientists were likely to be making a very large number of errors for both
-technical and social reasons.  I have become increasingly involved in projects
-to teach computing methods to students and researchers. I have taught and
-assisted at *Software Carpentry* workshops [#swc]_ teaching basic techniques
-for using scientific code.  With Jean-Baptiste Poline, Stéfan van der Walt and
-Paul Ivanov, we have developed a new course on the principles of neuroimaging
-that combines teaching of the mathematical ideas with code implementing and
-illustrating these concepts.
+All our ``nipy.org``-based projects (including ``nipy, nibabel, dipy``) use
+open-source best practice for software development, including distributed
+version control based at http://github.com/nipy, full web-based code review,
+and automated code testing.
 
 ******************
 Research Positions
@@ -145,23 +138,24 @@ Research Positions
     development of `nipy` open source software projects; contributing to
     development of new algorithms for analysis of diffusion imaging;
     development of new course teaching neuroimaging research methods with
-    practice in scientific computation.
+    practice in scientific computation; teaching reproducible computing to
+    statistics undergraduates and masters students;
 **October 2005 – July 2008**
     *Senior investigator scientist at the MRC Cognition & Brain Sciences Unit,
     Cambridge*. Working with Ian Nimmo-Smith and other members of the methods
     group. Consulting on design and analysis of functional brain imaging data
     and diffusion imaging data, new research on brain imaging methods,
-    teaching of functional imaging methods.
+    teaching of functional imaging methods;
 **October 2003 – September 2005**
     *Associate specialist in psychology at the University of California,
     Berkeley*.  Working with Rich Ivry. Research into mechanisms of movement
-    selection using functional brain imaging.
+    selection using functional brain imaging;
 **March 1999 – September 2003**
     *Research associate at the MRC Cognition & Brain Sciences Unit,
     Cambridge*.  Working with John Duncan on mechanisms of movement selection
     using functional brain imaging (positron emission tomography, functional
     MRI scanning).  Also working on algorithms for matching structural brain
-    images from damaged brains to normal brain templates.
+    images from damaged brains to normal brain templates;
 **February 1996 – February 1999**
     *Research registrar in neurology at the MRC Cyclotron Unit, Hammersmith
     hospital and Oxford laboratory of physiology*. Jointly supervised by David
@@ -213,11 +207,12 @@ Awards
 Journals
 ========
 
-Reviewer for NeuroImage, Human Brain Mapping, Journal of Cognitive Neuroscience,
-Neuroscience Letters, Clinical Neurophysiology, Journal of Neuroimaging, the
-Journal of Clinical and Experimental Neuropsychology, Frontiers in
-Neuroinformatics, Computing in Science and Engineering, Frontiers in Brain
-Imaging Methods, Public Library of Science One.
+Reviewer for NeuroImage, Human Brain Mapping, Journal of Cognitive
+Neuroscience, Neuroscience Letters, Clinical Neurophysiology, Journal of
+Neuroimaging, the Journal of Clinical and Experimental Neuropsychology,
+Frontiers in Neuroinformatics, Computing in Science and Engineering, Frontiers
+in Brain Imaging Methods, Frontiers in Neuroanatomy, Public Library of Science
+One.
 
 Graduate supervision
 ====================
@@ -234,7 +229,7 @@ Graduate supervision
     Western Ontario.
 
 I was a member of the graduate committee for the MRC cognition and brain
-sciences unit 2007-2008
+sciences unit 2007-2008.
 
 Undergraduate supervision
 =========================
@@ -314,16 +309,20 @@ Courses taught
 
 .. rubric:: Footnotes
 
+.. [#google-scholar-metrics] https://scholar.google.com/citations?user=q12RP7AAAAAJ&hl=en
 .. [#donoho] Buckheit, Jonathan B., and David L. Donoho. *Wavelab and
    reproducible research*. Springer New York, 1995.
 .. [#swc] Software carpentry (http://software-carpentry.org) is an international
    project to teach scientists to use computing tools; founded in 1998, it is
    now part of the Mozilla Science Lab.
 .. [#fiac-analysis] http://phiwave.sourceforge.net/fiac/index.html
+.. [#depsy] http://www.nature.com/news/the-unsung-heroes-of-scientific-software-1.19100
+.. [#depsy-nipy] http://depsy.org/package/python/nipy
+.. [#depsy-nibabel] http://depsy.org/package/python/nibabel
+.. [#depsy-dipy] http://depsy.org/package/python/dipy
 .. [#pna-course] "Practical neuroimaging" course at
    http://practical-neuroimaging.github.io
 .. [#rcsds-course] Reproducible and collaborative statistical data science:
    http://www.jarrodmillman.com/stat159-fall2015
-
 
 .. include:: ../links.txt
