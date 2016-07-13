@@ -1,13 +1,13 @@
 .. _publications:
 
-**********************
-Articles and abstracts
-**********************
+******************************
+Tutorials, articles, abstracts
+******************************
 
-.. _pubs-computing:
+.. _pubs-movement:
 
-Computing
-=========
+Functional imaging of movement and thinking
+===========================================
 
 Articles
 --------
@@ -16,22 +16,60 @@ Articles
     :style: mystyle
     :sort:
 
-    Millman2007
+    Rodriguez2012absence
+    Grahn2009
+    Grahn2007
+    Spencer2007
+    Dove2006
+    Bishop2004
+    Graham2003
+    Kellenbach2003
+    Kellenbach2001
 
-Abstracts
+Abstracts and conference papers
+-------------------------------
+
+.. biblisted:: ../mbcv/matthew_brett.bib
+    :style: mystyle
+    :sort:
+
+    Osswald2002
+    Dove2001encoding
+    Brett1998pmc
+    Brett1997sma
+..
+    Johnsrude, I. S., Giraud, A. L., Morosan, P., Brett, M., Owen, A. M., & Zilles, K. (2000).
+    Functional Imaging of the auditory system: The use of positron emission tomography.
+    In K. Jahnke & M. Fischer (Eds.), *Proceedings of the 4th European Congress of Oto-Rhino-Laryngology Head and Neck Surgery* (pp.
+    49-58).
+    Bologna.
+
+.. _pubs-methodology:
+
+Methodology
+===========
+
+Tutorials
 ---------
 
 .. biblisted:: ../mbcv/matthew_brett.bib
     :style: mystyle
     :sort:
 
-    Taylor2005brainpy
-    Brett2009nipy
-
-.. _pubs-methodology:
-
-Methodology
-===========
+    fourier-no-ei
+    pca-introduction
+    on-convolution
+    bonferroni-notebook
+    fdr-notebook
+    coordinate-systems
+    introducing-the-glm
+    ioannidis-commentary
+    random-fields-python
+    r-formula-notebook
+    spm-statistics-orig
+    smoothing-orig
+    svc-orig
+    random-fields-orig
 
 Articles and book chapters
 --------------------------
@@ -76,10 +114,20 @@ Abstracts and conference papers
     Brett1999time
     Brett2001mni
 
-.. _pubs-movement:
+.. _pubs-computing:
 
-Functional imaging of movement and thinking
-===========================================
+Computing
+=========
+
+Tutorials
+---------
+
+.. biblisted:: ../mbcv/matthew_brett.bib
+    :style: mystyle
+    :sort:
+
+    floating-error
+    curious-git
 
 Articles
 --------
@@ -88,33 +136,19 @@ Articles
     :style: mystyle
     :sort:
 
-    Rodriguez2012absence
-    Grahn2009
-    Grahn2007
-    Spencer2007
-    Dove2006
-    Bishop2004
-    Graham2003
-    Kellenbach2003
-    Kellenbach2001
+    garyfallidis2014dipy
+    Millman2007
 
-Abstracts and conference papers
--------------------------------
+Abstracts
+---------
 
 .. biblisted:: ../mbcv/matthew_brett.bib
     :style: mystyle
     :sort:
 
-    Osswald2002
-    Dove2001encoding
-    Brett1998pmc
-    Brett1997sma
-..
-    Johnsrude, I. S., Giraud, A. L., Morosan, P., Brett, M., Owen, A. M., & Zilles, K. (2000).
-    Functional Imaging of the auditory system: The use of positron emission tomography.
-    In K. Jahnke & M. Fischer (Eds.), *Proceedings of the 4th European Congress of Oto-Rhino-Laryngology Head and Neck Surgery* (pp.
-    49-58).
-    Bologna.
+    millman2011reproducible
+    Taylor2005brainpy
+    Brett2009nipy
 
 .. _pubs-other:
 
@@ -129,7 +163,6 @@ About other things
     Brett1999
     Brett1995
     Chesser1989
-
 
 .. only:: html
 
