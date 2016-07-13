@@ -12,7 +12,7 @@ Computing
 Articles
 --------
 
-.. biblisted:: matthew_brett.bib
+.. biblisted:: ../mbcv/matthew_brett.bib
     :style: mystyle
     :sort:
 
@@ -21,7 +21,7 @@ Articles
 Abstracts
 ---------
 
-.. biblisted:: matthew_brett.bib
+.. biblisted:: ../mbcv/matthew_brett.bib
     :style: mystyle
     :sort:
 
@@ -36,7 +36,7 @@ Methodology
 Articles and book chapters
 --------------------------
 
-.. biblisted:: matthew_brett.bib
+.. biblisted:: ../mbcv/matthew_brett.bib
     :style: mystyle
     :sort:
 
@@ -63,7 +63,7 @@ Articles and book chapters
 Abstracts and conference papers
 -------------------------------
 
-.. biblisted:: matthew_brett.bib
+.. biblisted:: ../mbcv/matthew_brett.bib
     :style: mystyle
     :sort:
 
@@ -84,7 +84,7 @@ Functional imaging of movement and thinking
 Articles
 --------
 
-.. biblisted:: matthew_brett.bib
+.. biblisted:: ../mbcv/matthew_brett.bib
     :style: mystyle
     :sort:
 
@@ -101,7 +101,7 @@ Articles
 Abstracts and conference papers
 -------------------------------
 
-.. biblisted:: matthew_brett.bib
+.. biblisted:: ../mbcv/matthew_brett.bib
     :style: mystyle
     :sort:
 
@@ -121,7 +121,7 @@ Abstracts and conference papers
 About other things
 ==================
 
-.. biblisted:: matthew_brett.bib
+.. biblisted:: ../mbcv/matthew_brett.bib
     :style: mystyle
     :sort:
 
@@ -133,4 +133,4 @@ About other things
 
 .. only:: html
 
-    :download:`bibtex reference file <matthew_brett.bib>`
+    :download:`bibtex reference file <../mbcv/matthew_brett.bib>`

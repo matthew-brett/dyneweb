@@ -140,20 +140,14 @@ doctest:
 	      "results in $(BUILDDIR)/doctest/output.txt."
 
 upload: html cv
-	cp $(BUILDDIR)/latex/cv.pdf $(SITE)/research/mbrett_cv.pdf
-	cp $(BUILDDIR)/latex/publist.pdf $(SITE)/research/mbrett_publist.pdf
+	cp mbcv/matthew_brett_cv.pdf $(SITE)/research/mbrett_cv.pdf
 	chmod -R uog+r $(SITE)
 	rsync -avrzH --copy-links --delete -e ssh  $(SITE)/ $(WWW)
 
 checkcv:
-	python tools/check_bib.py research/matthew_brett.bib
+	python tools/check_bib.py mbcv/matthew_brett.bib
 
-cv: checkcv latexpdf
-	-rm -rf research/publist.{aux,bbl,bcf,blg,log,out,pdf,run.xml}
-	cd research && make publist
-	cp research/publist.pdf $(BUILDDIR)/latex
+cv: checkcv
+	cd mbcv && make
 
 fullcv: cv
-	pdfconcat -o $(BUILDDIR)/latex/matthew_brett_cv.pdf \
-	    $(BUILDDIR)/latex/cv.pdf \
-	    $(BUILDDIR)/latex/publist.pdf
