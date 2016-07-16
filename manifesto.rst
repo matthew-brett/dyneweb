@@ -87,7 +87,7 @@ modern world of data and analysis.
 
 .. rubric:: References
 
-.. bibliography:: research/general.bib research/matthew_brett.bib
+.. bibliography:: research/general.bib mbcv/matthew_brett.bib
     :style: plain
 
 .. include:: links.txt

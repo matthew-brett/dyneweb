@@ -26,11 +26,7 @@ sys.path.insert(0, os.path.abspath('sphinxext'))
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = ['sphinx.ext.mathjax',
-              'bibstuff.sphinxext.bibref',
               'sphinxcontrib.bibtex']
-
-# Add custom style for references
-bibref_styles = {'mystyle': 'mystyle'}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -255,3 +251,101 @@ man_pages = [
     ('index', 'matthewbrett', u'Matthew Brett pages',
      [u'Matthew Brett'], 1)
 ]
+
+
+# Custom bibliography stuff for sphinxcontrib.bibtex
+from pybtex.style.formatting.unsrt import Style as UnsrtStyle, pages, date
+from pybtex.style.template import words
+from pybtex.plugin import register_plugin
+from pybtex.style.formatting import toplevel
+from pybtex.style.template import (
+    join, words, field, optional, first_of,
+    names, sentence, tag, optional_field, href
+)
+
+from pybtex.style.sorting.author_year_title import SortingStyle as Sorter
+
+
+class MySort(Sorter):
+
+    def sort(self, entries):
+        entry_dict = dict(
+            (self.sorting_key(entry), entry)
+            for entry in entries
+        )
+        sorted_keys = sorted(entry_dict, reverse=True)
+        sorted_entries = [entry_dict[key] for key in sorted_keys]
+        return sorted_entries
+
+    def sorting_key(self, entry):
+        if entry.type in ('book', 'inbook'):
+            author_key = self.author_editor_key(entry)
+        elif 'author' in entry.persons:
+            author_key = self.persons_key(entry.persons['author'])
+        else:
+            author_key = ''
+        return (entry.fields.get('year', ''),
+                author_key,
+                entry.fields.get('title', ''))
+
+
+class MyStyle(UnsrtStyle):
+    default_sorting_style = 'year_author_title'
+
+    def format_article(self, e):
+        volume_and_pages = first_of [
+            # volume and pages, with optional issue number
+            optional [
+                join [
+                    field('volume'),
+                    optional['(', field('number'),')'],
+                    ':', pages
+                ],
+            ],
+            # pages only
+            words ['pages', pages],
+        ]
+        template = toplevel [
+            self.format_names('author'),
+            self.format_title(e, 'title'),
+            sentence [
+                optional[ tag('em') [field('journal')] ],
+                optional[ volume_and_pages ],
+                date],
+            sentence [ optional_field('note') ],
+            self.format_web_refs(e),
+            sentence [
+                optional [ self.format_local(e) ],
+            ],
+            sentence [
+                optional [ self.format_poster(e) ],
+            ],
+        ]
+        return template.format_data(e)
+
+    format_online = format_article
+
+    def format_conference(self, e):
+        return self.format_incollection(e)
+
+    def format_local(self, e, ):
+        # based on urlbst format.url
+        return words [
+            href [
+                field('local-content'),
+                'download publication',
+                ]
+        ]
+
+    def format_poster(self, e, ):
+        # based on urlbst format.url
+        return words [
+            href [
+                field('local-poster'),
+                'download poster',
+                ]
+        ]
+
+
+register_plugin('pybtex.style.formatting', 'mystyle', MyStyle)
+register_plugin('pybtex.style.sorting', 'year_author_title', MySort)

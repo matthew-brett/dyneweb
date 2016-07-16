@@ -12,37 +12,18 @@ Functional imaging of movement and thinking
 Articles
 --------
 
-.. biblisted:: ../mbcv/matthew_brett.bib
+.. bibliography:: ../mbcv/matthew_brett.bib
     :style: mystyle
-    :sort:
-
-    Rodriguez2012absence
-    Grahn2009
-    Grahn2007
-    Spencer2007
-    Dove2006
-    Bishop2004
-    Graham2003
-    Kellenbach2003
-    Kellenbach2001
+    :list: bullet
+    :filter: not cited and 'omit' not in keywords and 'movethink' in keywords and 'article' in keywords
 
 Abstracts and conference papers
 -------------------------------
 
-.. biblisted:: ../mbcv/matthew_brett.bib
+.. bibliography:: ../mbcv/matthew_brett.bib
     :style: mystyle
-    :sort:
-
-    Osswald2002
-    Dove2001encoding
-    Brett1998pmc
-    Brett1997sma
-..
-    Johnsrude, I. S., Giraud, A. L., Morosan, P., Brett, M., Owen, A. M., & Zilles, K. (2000).
-    Functional Imaging of the auditory system: The use of positron emission tomography.
-    In K. Jahnke & M. Fischer (Eds.), *Proceedings of the 4th European Congress of Oto-Rhino-Laryngology Head and Neck Surgery* (pp.
-    49-58).
-    Bologna.
+    :list: bullet
+    :filter: not cited and 'omit' not in keywords and 'movethink' in keywords and 'abstract' in keywords
 
 .. _pubs-methodology:
 
@@ -52,67 +33,26 @@ Methodology
 Tutorials
 ---------
 
-.. biblisted:: ../mbcv/matthew_brett.bib
+.. bibliography:: ../mbcv/matthew_brett.bib
     :style: mystyle
-    :sort:
-
-    fourier-no-ei
-    pca-introduction
-    on-convolution
-    bonferroni-notebook
-    fdr-notebook
-    coordinate-systems
-    introducing-the-glm
-    ioannidis-commentary
-    random-fields-python
-    r-formula-notebook
-    spm-statistics-orig
-    smoothing-orig
-    svc-orig
-    random-fields-orig
+    :list: bullet
+    :filter: not cited and 'omit' not in keywords and ('statistics' in keywords or 'imaging' in keywords) and 'online' in keywords
 
 Articles and book chapters
 --------------------------
 
-.. biblisted:: ../mbcv/matthew_brett.bib
+.. bibliography:: ../mbcv/matthew_brett.bib
     :style: mystyle
-    :sort:
-
-    Garyfallidis2012
-    Poline2012
-    Schwarzbauer2010
-    Poldrack2008
-    Crinion2007
-    Aston2006
-    Saxe2006
-    Nichols2005
-    Kherif2003
-    Cusack2003
-    Brett2003
-    Brett2002
-    Hammers2002
-    Gustard2001
-    Brett2001
-    Rorden2000
-    Turkheimer2001
-    Turkheimer2000
-    Turkheimer1999
+    :list: bullet
+    :filter: not cited and 'omit' not in keywords and ('statistics' in keywords or 'imaging' in keywords) and 'article' in keywords
 
 Abstracts and conference papers
 -------------------------------
 
-.. biblisted:: ../mbcv/matthew_brett.bib
+.. bibliography:: ../mbcv/matthew_brett.bib
     :style: mystyle
-    :sort:
-
-    Garyfallidis2010fast
-    Garyfallidis2010ismrm
-    Brett2003er
-    Fadili2002
-    Brett2002marsbar
-    Johnsrude2001cyto
-    Brett1999time
-    Brett2001mni
+    :list: bullet
+    :filter: not cited and 'omit' not in keywords and ('statistics' in keywords or 'imaging' in keywords) and 'abstract' in keywords
 
 .. _pubs-computing:
 
@@ -122,47 +62,36 @@ Computing
 Tutorials
 ---------
 
-.. biblisted:: ../mbcv/matthew_brett.bib
+.. bibliography:: ../mbcv/matthew_brett.bib
     :style: mystyle
-    :sort:
-
-    floating-error
-    curious-git
+    :list: bullet
+    :filter: not cited and 'omit' not in keywords and 'computing' in keywords and 'online' in keywords
 
 Articles
 --------
 
-.. biblisted:: ../mbcv/matthew_brett.bib
+.. bibliography:: ../mbcv/matthew_brett.bib
     :style: mystyle
-    :sort:
-
-    garyfallidis2014dipy
-    Millman2007
+    :list: bullet
+    :filter: not cited and 'omit' not in keywords and 'computing' in keywords and 'article' in keywords
 
 Abstracts
 ---------
 
-.. biblisted:: ../mbcv/matthew_brett.bib
+.. bibliography:: ../mbcv/matthew_brett.bib
     :style: mystyle
-    :sort:
-
-    millman2011reproducible
-    Taylor2005brainpy
-    Brett2009nipy
+    :list: bullet
+    :filter: not cited and 'omit' not in keywords and 'computing' in keywords and 'abstract' in keywords
 
 .. _pubs-other:
 
 About other things
 ==================
 
-.. biblisted:: ../mbcv/matthew_brett.bib
+.. bibliography:: ../mbcv/matthew_brett.bib
     :style: mystyle
-    :sort:
-
-    Brett2001a
-    Brett1999
-    Brett1995
-    Chesser1989
+    :list: bullet
+    :filter: not cited and 'omit' not in keywords and 'other' in keywords
 
 .. only:: html
 

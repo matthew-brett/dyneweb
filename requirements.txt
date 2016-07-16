@@ -1,10 +1,2 @@
--f /Users/mb312/wheelhouse
-Jinja2==2.7.2
-MarkupSafe==0.19
-Pygments==1.6
-SimpleParse==2.1.1
-Sphinx==1.2.2
-bibstuff==1.0.0
-bibtexparser==0.5.1
-docutils==0.11
-wsgiref==0.1.2
+sphinx
+sphinxcontrib_bibtex

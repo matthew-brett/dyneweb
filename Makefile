@@ -45,6 +45,7 @@ help:
 clean:
 	-rm -rf $(BUILDDIR)/*
 	git clean -fxd
+	cd mbcv && make clean
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
