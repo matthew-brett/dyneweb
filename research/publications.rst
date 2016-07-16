@@ -36,7 +36,7 @@ Tutorials
 .. bibliography:: ../mbcv/matthew_brett.bib
     :style: mystyle
     :list: bullet
-    :filter: not cited and 'omit' not in keywords and ('statistics' in keywords or 'imaging' in keywords) and 'online' in keywords
+    :filter: not cited and 'omit' not in keywords and keywords % '(statistics|methods)' and 'online' in keywords
 
 Articles and book chapters
 --------------------------
@@ -44,7 +44,7 @@ Articles and book chapters
 .. bibliography:: ../mbcv/matthew_brett.bib
     :style: mystyle
     :list: bullet
-    :filter: not cited and 'omit' not in keywords and ('statistics' in keywords or 'imaging' in keywords) and 'article' in keywords
+    :filter: not cited and 'omit' not in keywords and keywords % '(statistics|methods)' and 'article' in keywords
 
 Abstracts and conference papers
 -------------------------------
@@ -52,7 +52,7 @@ Abstracts and conference papers
 .. bibliography:: ../mbcv/matthew_brett.bib
     :style: mystyle
     :list: bullet
-    :filter: not cited and 'omit' not in keywords and ('statistics' in keywords or 'imaging' in keywords) and 'abstract' in keywords
+    :filter: not cited and 'omit' not in keywords and keywords % '(statistics|methods)' and 'abstract' in keywords
 
 .. _pubs-computing:
 
