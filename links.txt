@@ -14,15 +14,18 @@
 .. _email me: matthew.brett@gmail.com
 .. _site: http://matthew.dynevor.org
 .. _perrin academy: http://perrin.dynevor.org
-.. _site source: http://gitorious.org/personal-www/dyneweb
+.. _my tutorials: http://matthew-brett.github.com/teaching
+.. _site source: https://bitbucket.org/matthewbrett/dyneweb
 .. _Michael Sowa: http://en.wikipedia.org/wiki/Michael_Sowa
 .. _pydagogue: http://matthew-brett.github.com/pydagogue
+.. _curious git: http://matthew-brett.github.com/curious-git
 .. _git foundations: http://matthew-brett.github.com/pydagogue/foundation.html
 .. _matthew-brett github: http://github.com/matthew-brett
 
 .. source control sites
 .. _git: http://git-scm.com/
 .. _gitorious: http://gitorious.org
+.. _bitbucket: http://bitbucket.org
 .. _github: http://github.com
 
 .. Fernando's links

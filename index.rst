@@ -19,22 +19,21 @@ dipy_.
 I sometimes write about the nipy experience in the `nipy blog`_.
 
 Like many other people, I am starting to explore ways of explaining technical
-ideas using code and formulae in the `IPython notebook`_.  My most complete
-explanation so far is `exploring formulae in R
-<http://nbviewer.ipython.org/urls/raw.github.com/fperez/nipy-notebooks/master/exploring_r_formula.ipynb>`_.
+ideas using code and formulae, using, amonng other things, the `IPython
+notebook`_.  See `my tutorials`_ for my recent efforts.
 
 Most of the code I work on is at `matthew-brett github`_.
 
-I wrote some tutorials on imaging and statistics hosted at `Perrin academy`_.  I
-have more tutorials about coding at pydagogue_.  My personal favorite is an
-introduction to git_ concepts called `git foundations`_
+Many of my tutorials on imaging and statistics are on `my tutorials`_.  I have
+more tutorials about coding at pydagogue_.  The coding tutorial I like the
+most is an introduction to git_ concepts called `curious git`_.
 
-I try to keep my list of :ref:`publications <publications>` up to date.  Please
-let me know if I've missed something off or you need a copy of one of the listed
-papers.
+I try to keep my list of :ref:`publications <publications>` up to date.
+Please let me know if I've missed something off or you need a copy of one of
+the listed papers.
 
-No doubt you want to know what I look like and how to find me - good news - see
-:ref:`about-me`.
+No doubt you want to know what I look like and how to find me - good news -
+see :ref:`about-me`.
 
 Maybe you want to know how I built these pages - :ref:`about-site`.
 
