@@ -44,5 +44,6 @@ Maybe you want to know how I built these pages - :ref:`about-site`.
     about_me
     about_site
     research/index
+    research/cv
 
 .. include:: links.txt
