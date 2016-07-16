@@ -18,11 +18,15 @@ dipy_.
 
 I sometimes write about the nipy experience in the `nipy blog`_.
 
+Most of the code I work on is at `matthew-brett github`_.
+
 Like many other people, I am starting to explore ways of explaining technical
 ideas using code and formulae, using, amonng other things, the `IPython
-notebook`_.  See `my tutorials`_ for my recent efforts.
+notebook`_.  See `my tutorials`_ for recent efforts.
 
-Most of the code I work on is at `matthew-brett github`_.
+I worry about the current state of brain imaging research, and I wrote a
+:doc:`manifesto <manifesto>` about teaching as a means to higher quality in
+science.
 
 Many of my tutorials on imaging and statistics are on `my tutorials`_.  I have
 more tutorials about coding at pydagogue_.  The coding tutorial I like the
@@ -44,5 +48,6 @@ Maybe you want to know how I built these pages - :ref:`about-site`.
     about_site
     research/index
     research/cv
+    manifesto
 
 .. include:: links.txt
