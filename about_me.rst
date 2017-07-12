@@ -13,16 +13,8 @@ Email
     first.last@gmail.com
 
 Office
-    | 210 Barker Hall
-    | See the `campus interactive map`_
-
-.. _campus interactive map : http://berkeley.edu/map/3dmap/3dmap.shtml?barker
-
-Post
-    | Henry H. Wheeler, Jr. Brain Imaging Center
-    | Helen Wills Neuroscience Institute
-    | 132 Barker Hall MC 3190
-    | University of California, Berkeley
-    | Berkeley, CA 94720-3192
+    | SG24 School of Biosciences
+    | University of Birmingham
+    | Birmingham B15 2TT
 
 .. include:: links.txt

@@ -38,6 +38,11 @@
 
 .. People
 
+.. Birmingham
+.. _Birmingham University: http://www.birmingham.ac.uk
+.. _College of Life and Environmental Sciences:
+   http://www.birmingham.ac.uk/university/colleges/les
+
 .. Berkeley
 .. _bic: http://bic.berkeley.edu
 .. _cirl: http://cirl.berkeley.edu
@@ -93,6 +98,8 @@
 .. _ipython: http://ipython.org
 .. _`ipython documentation`: http://ipython.org/ipython-doc/stable/index.html
 .. _ipython notebook: http://ipython.org/ipython-doc/stable/interactive/htmlnotebook.html
+.. _jupyter:
+.. _jupyter notebook: https://jupyter.org
 
 .. Python imaging projects
 .. _PyMVPA: http://www.pymvpa.org
