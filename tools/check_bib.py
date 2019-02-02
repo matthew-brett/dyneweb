@@ -20,25 +20,30 @@ def split_keywords(keywords):
     return words
 
 
+def check_bib(bibfile):
+    with open(bibfile, 'rt') as bibfile:
+        bp = BibTexParser(bibfile.read())
+        entries = bp.get_entry_list()
+        for entry in entries:
+            keywords = entry['keyword'] if 'keyword' in entry else ''
+            id = entry['ID']
+            keywords = split_keywords(keywords)
+            if len(TYPE_CLASSIFIERS.intersection(keywords)) != 1:
+                raise RuntimeError(
+                    'type classifiction seems wrong {}, {}'.format(
+                        id, keywords))
+            if ARTICLE_TYPES.intersection(keywords):
+                if len(TOPIC_CLASSIFIERS.intersection(keywords)) != 1:
+                    raise RuntimeError(
+                        'topic classifiction seems wrong {}, {}'.format(
+                            id, keywords))
+
+
 def main():
     parser = argparse.ArgumentParser(description='Process bib file.')
     parser.add_argument('bibfile', help='bib file')
     args = parser.parse_args()
-    with open(args.bibfile, 'rt') as bibfile:
-        bp = BibTexParser(bibfile.read())
-        entries = bp.get_entry_list()
-        for entry in entries:
-            keywords = entry['keyword']
-            id = entry['ID']
-            keywords = split_keywords(keywords)
-            if len(TYPE_CLASSIFIERS.intersection(keywords)) != 1:
-                print('type classifiction seems wrong', id, keywords)
-                return 1
-            if ARTICLE_TYPES.intersection(keywords):
-                if len(TOPIC_CLASSIFIERS.intersection(keywords)) != 1:
-                    print('topic classifiction seems wrong', id, keywords)
-                    return 1
-    return 0
+    check_bib(args.bibfile)
 
 
 if __name__ == '__main__':

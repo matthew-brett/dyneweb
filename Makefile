@@ -142,6 +142,7 @@ doctest:
 	      "results in $(BUILDDIR)/doctest/output.txt."
 
 upload: html cv
+	cp bio240_practice.Rmd $(SITE)
 	cp mbcv/matthew_brett_cv.pdf $(SITE)/research/mbrett_cv.pdf
 	chmod -R uog+r $(SITE)
 	rsync -avrzH --copy-links --delete -e ssh  $(SITE)/ $(WWW)
