@@ -25,7 +25,7 @@ def check_bib(bibfile):
         bp = BibTexParser(bibfile.read())
         entries = bp.get_entry_list()
         for entry in entries:
-            keywords = entry['keyword'] if 'keyword' in entry else ''
+            keywords = entry['keywords'] if 'keywords' in entry else ''
             id = entry['ID']
             keywords = split_keywords(keywords)
             if len(TYPE_CLASSIFIERS.intersection(keywords)) != 1:
