@@ -13,7 +13,8 @@ Email
     first.last@gmail.com
 
 Office
-    | SG24 School of Biosciences
+    | 3.04 Hills Building
+    | School of psychology
     | University of Birmingham
     | Birmingham B15 2TT
 

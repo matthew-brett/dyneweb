@@ -23,8 +23,8 @@ My own research interests are:
 
 I have also written |--| and continue to write |--| open source software.  I
 used to write most of my software in MATLAB, but now I use Python_ almost
-exclusively.  For the last 12 years or so, I have been working on Python
-software for analyzing functional and diffusion imaging data.  This is the
+exclusively.  For the last 14 years or so, I have been working on Python
+software for analyzing functional and diffusion imaging data; see the
 `nipy community`_ project.  I personally work a lot on nibabel_ as well as the
 `nipy package`_ and dipy_.
 
@@ -42,9 +42,10 @@ I worry about the current state of brain imaging research, and I wrote a
 :doc:`manifesto <manifesto>` about teaching as a means to higher quality in
 science.
 
-I try to keep my list of :ref:`publications <publications>` up to date.
-Please let me know if I've missed something off or you need a copy of one of
-the listed papers.
+I confess that I sometimes blog at http://asterisk.dynevor.org.
+
+You will find a list of my publications :ref:`here <publications>`. Please let
+me know if I've missed something off or you need a copy of one of my papers.
 
 No doubt you want to know what I look like and how to find me - good news -
 see :ref:`about-me`.
