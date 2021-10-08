@@ -266,15 +266,10 @@ man_pages = [
 
 
 # Custom bibliography stuff for sphinxcontrib.bibtex
-from pybtex.style.formatting.unsrt import Style as UnsrtStyle, pages, date
-from pybtex.style.template import words
+from functools import partialmethod
+from pybtex.style.formatting.unsrt import Style as UnsrtStyle
 from pybtex.plugin import register_plugin
-from pybtex.style.formatting import toplevel
-from pybtex.style.template import (
-    join, words, field, optional, first_of,
-    names, sentence, tag, optional_field, href
-)
-
+from pybtex.style.template import words, sentence, field, optional, href
 from pybtex.style.sorting.author_year_title import SortingStyle as Sorter
 
 
@@ -307,33 +302,22 @@ class MyStyle(UnsrtStyle):
     def get_article_template(self, e):
         template = super().get_article_template(e)
         template.children += [
-            sentence [
-                optional [ self.format_local(e) ],
-            ],
-            sentence [
-                optional [ self.format_poster(e) ],
-            ]]
+            sentence [ optional [ self.format_local(e) ] ],
+            sentence [ optional [ self.format_poster(e) ] ]
+            ]
         return template
 
     get_conference_template = UnsrtStyle.get_incollection_template
 
-    def format_local(self, e):
+    def _format_download(self, e, name):
         # based on urlbst format.url
         return words [
-            href [
-                field('local-content'),
-                'download publication',
-                ]
+            href [ field('local-content'), f'download {name}' ]
         ]
 
-    def format_poster(self, e):
-        # based on urlbst format.url
-        return words [
-            href [
-                field('local-poster'),
-                'download poster',
-                ]
-        ]
+    format_local = partialmethod(_format_download, name='publication')
+
+    format_poster = partialmethod(_format_download, name='poster')
 
 
 register_plugin('pybtex.style.formatting', 'mystyle', MyStyle)
