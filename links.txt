@@ -14,12 +14,12 @@
 .. _email me: matthew.brett@gmail.com
 .. _site: http://matthew.dynevor.org
 .. _perrin academy: http://perrin.dynevor.org
-.. _my tutorials: http://matthew-brett.github.com/teaching
+.. _my tutorials: http://matthew-brett.github.io/teaching
 .. _site source: https://bitbucket.org/matthewbrett/dyneweb
 .. _Michael Sowa: http://en.wikipedia.org/wiki/Michael_Sowa
-.. _pydagogue: http://matthew-brett.github.com/pydagogue
-.. _curious git: http://matthew-brett.github.com/curious-git
-.. _git foundations: http://matthew-brett.github.com/pydagogue/foundation.html
+.. _pydagogue: http://matthew-brett.github.io/pydagogue
+.. _curious git: http://matthew-brett.github.io/curious-git
+.. _git foundations: http://matthew-brett.github.io/pydagogue/foundation.html
 .. _matthew-brett github: http://github.com/matthew-brett
 
 .. source control sites
