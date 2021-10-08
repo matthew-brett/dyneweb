@@ -58,15 +58,15 @@
 .. _nipy package: http://nipy.org/nipy
 .. _nipy blog: http://nipyworld.blogspot.com/
 .. _nibabel: http://nipy.org/nibabel
-.. _dipy: http://nipy.org/dipy
+.. _dipy: http://dipy.org
 .. _nitime: http://nipy.sourceforge.net/nitime
 .. _nipype: http://nipy.sourceforge.net/nipype
 .. _neurospin: http://meteoreservice.com/neurospin
 
 .. Documentation tools and related links
 .. _graphviz: http://www.graphviz.org
-.. _Sphinx: http://sphinx.pocoo.org
-.. _`Sphinx reST`: http://sphinx.pocoo.org/rest.html
+.. _Sphinx: https://www.sphinx-doc.org
+.. _`Sphinx reST`: https://www.sphinx-doc.org/en/master/usage/restructuredtext
 .. _sampledoc: http://matplotlib.sourceforge.net/sampledoc
 .. _reST: http://docutils.sourceforge.net/rst.html
 .. _docutils: http://docutils.sourceforge.net
