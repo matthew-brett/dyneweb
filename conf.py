@@ -304,43 +304,9 @@ class MySort(Sorter):
 class MyStyle(UnsrtStyle):
     default_sorting_style = 'year_author_title'
 
-    def format_article(self, e):
-        volume_and_pages = first_of [
-            # volume and pages, with optional issue number
-            optional [
-                join [
-                    field('volume'),
-                    optional['(', field('number'),')'],
-                    ':', pages
-                ],
-            ],
-            # pages only
-            words ['pages', pages],
-        ]
-        template = toplevel [
-            self.format_names('author'),
-            self.format_title(e, 'title'),
-            sentence [
-                optional[ tag('em') [field('journal')] ],
-                optional[ volume_and_pages ],
-                date],
-            sentence [ optional_field('note') ],
-            self.format_web_refs(e),
-            sentence [
-                optional [ self.format_local(e) ],
-            ],
-            sentence [
-                optional [ self.format_poster(e) ],
-            ],
-        ]
-        return template.format_data(e)
+    get_conference_template = UnsrtStyle.get_incollection_template
 
-    format_online = format_article
-
-    def format_conference(self, e):
-        return self.format_incollection(e)
-
-    def format_local(self, e, ):
+    def format_local(self, e):
         # based on urlbst format.url
         return words [
             href [
@@ -349,7 +315,7 @@ class MyStyle(UnsrtStyle):
                 ]
         ]
 
-    def format_poster(self, e, ):
+    def format_poster(self, e):
         # based on urlbst format.url
         return words [
             href [
