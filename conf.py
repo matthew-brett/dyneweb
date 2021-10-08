@@ -304,6 +304,17 @@ class MySort(Sorter):
 class MyStyle(UnsrtStyle):
     default_sorting_style = 'year_author_title'
 
+    def get_article_template(self, e):
+        template = super().get_article_template(e)
+        template.children += [
+            sentence [
+                optional [ self.format_local(e) ],
+            ],
+            sentence [
+                optional [ self.format_poster(e) ],
+            ]]
+        return template
+
     get_conference_template = UnsrtStyle.get_incollection_template
 
     def format_local(self, e):
