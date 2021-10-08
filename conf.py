@@ -28,6 +28,9 @@ sys.path.insert(0, os.path.abspath('sphinxext'))
 extensions = ['sphinx.ext.mathjax',
               'sphinxcontrib.bibtex']
 
+# Configure bibliography
+bibtex_bibfiles = ['research/general.bib', 'mbcv/matthew_brett.bib']
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
