@@ -307,7 +307,8 @@ class MyStyle(UnsrtStyle):
             ]
         return template
 
-    get_conference_template = UnsrtStyle.get_incollection_template
+    def get_conference_template(self, e):
+        return self.get_incollection_template(e)
 
     def _format_download(self, e, name):
         # based on urlbst format.url
