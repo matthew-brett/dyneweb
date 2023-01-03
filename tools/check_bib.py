@@ -9,7 +9,8 @@ from bibtexparser.bparser import BibTexParser
 
 ARTICLE_TYPES = set(('abstract', 'article'))
 TYPE_CLASSIFIERS = ARTICLE_TYPES.union(('software', 'online'))
-TOPIC_CLASSIFIERS = set(('movethink', 'methods', 'computing', 'others'))
+TOPIC_CLASSIFIERS = set(('movethink', 'methods', 'computing', 'others',
+                         'datascience'))
 
 def split_keywords(keywords):
     words = [s.strip() for s in keywords.split(';')]
@@ -30,7 +31,7 @@ def check_bib(bibfile):
             keywords = split_keywords(keywords)
             if len(TYPE_CLASSIFIERS.intersection(keywords)) != 1:
                 raise RuntimeError(
-                    'type classifiction seems wrong {}, {}'.format(
+                    'type classification seems wrong {}, {}'.format(
                         id, keywords))
             if ARTICLE_TYPES.intersection(keywords):
                 if len(TOPIC_CLASSIFIERS.intersection(keywords)) != 1:
