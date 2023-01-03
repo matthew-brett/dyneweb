@@ -10,12 +10,11 @@
     Valia Rodriguez Rodriguez took this picture.
 
 Email
-    first.last@gmail.com
+    matthew.brett@gmail.com
 
-Office
-    | 3.04 Hills Building
-    | School of psychology
-    | University of Birmingham
-    | Birmingham B15 2TT
+Work
+    | The London Interdisciplinary School
+    | 20-30 Whitechapel Road
+    | London E1 1EW
 
 .. include:: links.txt

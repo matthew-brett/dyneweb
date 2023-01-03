@@ -38,6 +38,9 @@
 
 .. People
 
+.. LIS
+.. _London Interdisciplinary School: https://www.lis.ac.uk
+
 .. Birmingham
 .. _Birmingham University: http://www.birmingham.ac.uk
 .. _College of Life and Environmental Sciences:
